@@ -1,13 +1,15 @@
-# RAM-1024 / ramhash — a hash function built to outlast SHA-256
+# RAM-1024 / ramhash
 
-**RAM-1024** is a new hash function designed and iterated here: a 2048-bit
+A 1024-bit-output sponge hash function, XOF, MAC and memory-hard password hash.
+
+**RAM-1024** is a new hash function: a 2048-bit
 sponge with a hybrid ARX + chi permutation, **64 rounds**, 1024-bit capacity,
 **1024-bit output**, and a parallel tree mode, plus **RAM-Balloon**, a
 memory-hard password hash on the same permutation. **ramhash** is the Python
 package around it; its default is *hedged* with NIST SHA3-512.
 
-Runs everywhere: portable C99 with a pure-Python fallback. **Tested**, with
-bit-identical known-answer vectors on each:
+Portable C99 with a pure-Python fallback, tested with bit-identical
+known-answer vectors on each of the following:
 
 | OS | How it was run |
 |---|---|
@@ -48,16 +50,10 @@ tree mode spreads it over every CPU core and the GPU, producing the same
 digest. At the *same* security margin as each standard it is 2.6–7.6×
 faster than it on the CPU alone.
 
-A note on the premise: SHA-256 is a hash, not encryption, so it can't be
-"decrypted", and there is no public evidence that AI is close to breaking
-it. In our lab a neural-network attacker stalls about a third of the way
-into SHA-256's rounds. The credible long-term threat is quantum computing,
-which RAM-1024's 1024-bit state/output targets directly.
+## Status
 
-## Honest status
-
-RAM-1024 is **new**. It leads every metric we can measure, but a hash
-function earns trust only through years of public cryptanalysis. So the
+RAM-1024 is **new**. A hash function earns trust only through years of
+public cryptanalysis, which RAM-1024 has not yet had. So the
 default algorithm is `ram-1024+sha3-512` (1536-bit concatenation):
 **an attacker must break both**. Don't deploy bare `ram-1024` alone until
 it has had that review. The project is a research release (alpha): the
