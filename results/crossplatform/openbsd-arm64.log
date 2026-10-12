@@ -1,0 +1,367 @@
+debconf: delaying package configuration, since apt-utils is not installed
+BUILDINFO: OK
+miniroot79.img: OK
+bsd: OK
+bsd.mp: OK
+bsd.rd: OK
+base79.tgz: OK
+comp79.tgz: OK
+UEFI firmware (version  built at 13:10:49 on Nov  5 2024)
+[2J[01;01H[=3h[2J[01;01H[2J[01;01H[=3h[2J[01;01HBdsDxe: failed to load Boot0001 "UEFI Misc Device" from PciRoot(0x0)/Pci(0x2,0x0): Not Found
+
+installer problem: b'\x1b[2J\x1b[01;01H\x1b[=3h\x1b[2J\x1b[01;01H\x1b[2J\x1b[01;01H\x1b[=3h\x1b[2J\x1b[01;01HBdsDxe: failed to load Boot0001 "UEFI Misc Device" from PciRoot(0x0)/Pci(0x2,0x0): Not Found\r'
+BdsDxe: loading Boot0002 "UEFI Misc Device 2" from PciRoot(0x0)/Pci(0x3,0x0)
+BdsDxe: starting Boot0002 "UEFI Misc Device 2" from PciRoot(0x0)/Pci(0x3,0x0)
+disks: sd0* sd1
+>> OpenBSD/arm64 BOOTAA64 1.24
+|/-\|/boot> 
+-\|cannot open sd0a:/etc/random.seed: No such file or directory
+booting sd0a:/bsd: /-\|/3201768-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-+1344104\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/+12714976-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-+652288\ [294291|/-\|/-\|/-\|/-\|/-+91+757440\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|+311692/-\|/-\|/-\|/-\|/-\]=0x140c928
+FACP APIC PPTT GTDT MCFG SPCR DBG2 IORT 
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+	The Regents of the University of California.  All rights reserved.
+Copyright (c) 1995-2026 OpenBSD. All rights reserved.  https://www.OpenBSD.org
+
+OpenBSD 7.9 (RAMDISK) #211: Wed May  6 18:34:33 MDT 2026
+    deraadt@arm64.openbsd.org:/usr/src/sys/arch/arm64/compile/RAMDISK
+real mem  = 3212709888 (3063MB)
+avail mem = 3072880640 (2930MB)
+random: boothowto does not indicate good seed
+mainbus0 at root: ACPI
+psci0 at mainbus0: PSCI 1.1
+efi0 at mainbus0: UEFI 2.7
+efi0: EDK II rev 0x10000
+smbios0 at efi0: SMBIOS 3.0.0
+smbios0:
+smbios0: QEMU QEMU Virtual Machine
+cpu0 at mainbus0 mpidr 0: ARM Cortex-A72 r0p3
+cpu0: 48KB 64b/line 3-way L1 PIPT I-cache, 32KB 64b/line 2-way L1 D-cache
+cpu0: 1024KB 64b/line 16-way L2 cache
+cpu0: CRC32,SHA2,SHA1,AES+PMULL,ASID16
+ampintc0 at mainbus0 nirq 288, ncpu 4: "interrupt-controller"
+ampintcmsi0 at ampintc0: nspi 64
+agtimer0 at mainbus0: 62500 kHz
+acpi0 at mainbus0: ACPI 6.0
+acpi0: tables DSDT FACP APIC PPTT GTDT MCFG SPCR DBG2 IORT
+acpimcfg0 at acpi0
+acpimcfg0: addr 0x4010000000, bus 0-255
+acpiiort0 at acpi0
+pluart0 at acpi0 COM0 addr 0x9000000/0x1000 irq 33
+pluart0: console
+"QEMU0002" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+acpipci0 at acpi0 PCI0
+pci0 at acpipci0
+"Red Hat Host" rev 0x00 at pci0 dev 0 function 0 not configured
+virtio0 at pci0 dev 1 function 0 "Qumranet Virtio Network" rev 0x00
+vio0 at virtio0: 1 queue, address 52:54:00:12:34:56
+virtio0: irq 36
+virtio1 at pci0 dev 2 function 0 "Qumranet Virtio Storage" rev 0x00
+vioblk0 at virtio1
+virtio1: msix per-VQ
+scsibus0 at vioblk0: 1 targets
+sd0 at scsibus0 targ 0 lun 0: <VirtIO, Block Device, >
+sd0: 12288MB, 512 bytes/sector, 25165824 sectors
+virtio2 at pci0 dev 3 function 0 "Qumranet Virtio Storage" rev 0x00
+vioblk1 at virtio2
+virtio2: msix per-VQ
+scsibus1 at vioblk1: 1 targets
+sd1 at scsibus1 targ 0 lun 0: <VirtIO, Block Device, >
+sd1: 43MB, 512 bytes/sector, 88064 sectors
+"ACPI0013" at acpi0 not configured
+"PNP0C0C" at acpi0 not configured
+softraid0 at root
+scsibus2 at softraid0: 256 targets
+root on rd0a swap on rd0b dump on rd0b
+WARNING: CHECK AND RESET THE DATE!
+erase ^?, werase ^W, kill ^U, intr ^C, status ^T
+
+Welcome to the OpenBSD/arm64 7.9 installation program.
+(I)nstall, (U)pgrade, (A)utoinstall or (S)hell? a
+Could not determine auto mode.
+Response file location? [http://10.0.2.2/install.conf] http://10.0.2.2:8000/install.conf
+Fetching http://10.0.2.2:8000/install.conf
+Performing non-interactive install...
+Terminal type? [vt220] vt220
+System hostname? (short form, e.g. 'foo') openbsd
+
+Available network interfaces are: vio0 vlan0.
+Network interface to configure? (name, lladdr, '?', or 'done') [vio0] vio0
+IPv4 address for vio0? (or 'autoconf' or 'none') [autoconf] autoconf
+IPv6 address for vio0? (or 'autoconf' or 'none') [autoconf] none
+Available network interfaces are: vio0 vlan0.
+Network interface to configure? (name, lladdr, '?', or 'done') [done] done
+Using DNS domainname my.domain
+Using DNS nameservers at 10.0.2.3
+
+Password for root account? <provided>
+Public ssh key for root account? [none] ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFf3qVk4eBOSEvuacynol0y/GYBkhSr1nIoXid4dyfCq root@1067be31e967
+Start sshd(8) by default? [yes] yes
+Setup a user? (enter a lower-case loginname, or 'no') [no] no
+Since no user was setup, root logins via sshd(8) might be useful.
+WARNING: root is targeted by password guessing attacks, pubkeys are safer.
+Allow root ssh login? (yes, no, prohibit-password) [no] prohibit-password
+What timezone are you in? ('?' for list) [UTC] UTC
+
+Available disks are: sd0 sd1.
+Which disk is the root disk? ('?' for details) [sd0] sd0
+Encrypt the root disk with a (p)assphrase or (k)eydisk? [no] no
+MBR has invalid signature; not showing it.
+Use (W)hole disk or (E)dit the MBR? [whole] whole
+Creating a msdos partition and an OpenBSD partition for rest of sd0...done.
+URL to autopartitioning template for disklabel? [none] none
+The auto-allocated layout for sd0 is:
+#                size           offset  fstype [fsize bsize   cpg]
+  a:          1278.8M           565248  4.2BSD   2048 16384     1 # /
+  b:           256.0M          3184224    swap                    
+  c:         12288.0M                0  unused                    
+  d:          3072.0M          3708512  4.2BSD   2048 16384     1 # /usr
+  e:          2048.0M          9999968  4.2BSD   2048 16384     1 # /home
+  i:           260.0M            32768   MSDOS                    
+Use (A)uto layout, (E)dit auto layout, or create (C)ustom layout? [a] a
+/dev/rsd0a: 1278.8MB in 2618976 sectors of 512 bytes
+7 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rsd0e: 2048.0MB in 4194304 sectors of 512 bytes
+11 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rsd0d: 3072.0MB in 6291456 sectors of 512 bytes
+16 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+Available disks are: sd1.
+Which disk do you wish to initialize? (or 'done') [done] done
+/dev/sd0a (74fc32e34a88404c.a) on /mnt type ffs (rw, asynchronous, local)
+/dev/sd0e (74fc32e34a88404c.e) on /mnt/home type ffs (rw, asynchronous, local, nodev, nosuid)
+/dev/sd0d (74fc32e34a88404c.d) on /mnt/usr type ffs (rw, asynchronous, local, nodev)
+
+Let's install the sets!
+Location of sets? (disk http nfs or 'done') [http] http
+HTTP proxy URL? (e.g. 'http://proxy:8080', or 'none') [none] none
+HTTP Server? (hostname, list#, 'done' or '?') [10.0.2.2:8000] 10.0.2.2:8000
+Server directory? [pub/OpenBSD/7.9/arm64] pub/OpenBSD/7.9/arm64
+Unable to connect using HTTPS; using HTTP instead.
+
+Select sets by entering a set name, a file name pattern or 'all'. De-select
+sets by prepending a '-', e.g.: '-game*'. Selected sets are labelled '[X]'.
+    [X] bsd           [X] base79.tgz    [X] game79.tgz    [X] xfont79.tgz
+    [X] bsd.mp        [X] comp79.tgz    [X] xbase79.tgz   [X] xserv79.tgz
+    [X] bsd.rd        [X] man79.tgz     [X] xshare79.tgz
+Set name(s)? (or 'abort' or 'done') [done] -all bsd bsd.mp bsd.rd base79.tgz comp79.tgz
+    [X] bsd           [X] base79.tgz    [ ] game79.tgz    [ ] xfont79.tgz
+    [X] bsd.mp        [X] comp79.tgz    [ ] xbase79.tgz   [ ] xserv79.tgz
+    [X] bsd.rd        [ ] man79.tgz     [ ] xshare79.tgz
+Set name(s)? (or 'abort' or 'done') [done] done
+Get/Verify SHA256.sig     0% |                          |     0       --:-- ETAGet/Verify SHA256.sig   100% |**************************|  1719       00:00    
+Signature Verified
+Get/Verify bsd            0% |                          |     0       --:-- ETAGet/Verify bsd           48% |************              |  9344 KB    00:01 ETAGet/Verify bsd           97% |************************* | 18688 KB    00:00 ETAGet/Verify bsd          100% |**************************| 19090 KB    00:02    
+Get/Verify bsd.mp         0% |                          |     0       --:-- ETAGet/Verify bsd.mp        47% |************              |  9088 KB    00:01 ETAGet/Verify bsd.mp        86% |**********************    | 16640 KB    00:00 ETAGet/Verify bsd.mp       100% |**************************| 19161 KB    00:02    
+Get/Verify bsd.rd         0% |                          |     0       --:-- ETAGet/Verify bsd.rd        41% |**********                |  7680 KB    00:01 ETAGet/Verify bsd.rd        87% |**********************    | 16000 KB    00:00 ETAGet/Verify bsd.rd       100% |**************************| 18293 KB    00:02    
+Get/Verify base79.tgz     0% |                          |     0       --:-- ETAGet/Verify base79.tgz     0% |                          |  3200 KB    01:55 ETAGet/Verify base79.tgz     2% |                          |  8704 KB    01:23 ETAGet/Verify base79.tgz     3% |                          | 14080 KB    01:16 ETAGet/Verify base79.tgz     5% |*                         | 19072 KB    01:13 ETAGet/Verify base79.tgz     6% |*                         | 23552 KB    01:13 ETAGet/Verify base79.tgz     7% |*                         | 28416 KB    01:12 ETAGet/Verify base79.tgz     9% |**                        | 33408 KB    01:10 ETAGet/Verify base79.tgz    10% |**                        | 37504 KB    01:10 ETAGet/Verify base79.tgz    11% |**                        | 41984 KB    01:10 ETAGet/Verify base79.tgz    12% |***                       | 46464 KB    01:09 ETAGet/Verify base79.tgz    14% |***                       | 51840 KB    01:07 ETAGet/Verify base79.tgz    15% |***                       | 56960 KB    01:05 ETAGet/Verify base79.tgz    16% |****                      | 61184 KB    01:05 ETAGet/Verify base79.tgz    17% |****                      | 65408 KB    01:05 ETAGet/Verify base79.tgz    19% |****                      | 70784 KB    01:03 ETAGet/Verify base79.tgz    20% |*****                     | 75904 KB    01:01 ETAGet/Verify base79.tgz    21% |*****                     | 80256 KB    01:01 ETAGet/Verify base79.tgz    23% |*****                     | 85504 KB    00:59 ETAGet/Verify base79.tgz    24% |******                    | 90368 KB    00:58 ETAGet/Verify base79.tgz    25% |******                    | 94464 KB    00:58 ETAGet/Verify base79.tgz    26% |******                    | 98688 KB    00:57 ETAGet/Verify base79.tgz    27% |*******                   |   100 MB    00:57 ETAGet/Verify base79.tgz    29% |*******                   |   105 MB    00:56 ETAGet/Verify base79.tgz    30% |*******                   |   110 MB    00:54 ETAGet/Verify base79.tgz    31% |********                  |   114 MB    00:53 ETAGet/Verify base79.tgz    32% |********                  |   118 MB    00:53 ETAGet/Verify base79.tgz    34% |********                  |   123 MB    00:52 ETAGet/Verify base79.tgz    35% |*********                 |   126 MB    00:51 ETAGet/Verify base79.tgz    35% |*********                 |   129 MB    00:51 ETAGet/Verify base79.tgz    37% |*********                 |   133 MB    00:50 ETAGet/Verify base79.tgz    38% |*********                 |   139 MB    00:49 ETAGet/Verify base79.tgz    39% |**********                |   143 MB    00:48 ETAGet/Verify base79.tgz    40% |**********                |   148 MB    00:47 ETAGet/Verify base79.tgz    42% |**********                |   152 MB    00:46 ETAGet/Verify base79.tgz    43% |***********               |   157 MB    00:45 ETAGet/Verify base79.tgz    44% |***********               |   160 MB    00:44 ETAGet/Verify base79.tgz    45% |***********               |   165 MB    00:43 ETAGet/Verify base79.tgz    46% |***********               |   169 MB    00:42 ETAGet/Verify base79.tgz    48% |************              |   174 MB    00:41 ETAGet/Verify base79.tgz    49% |************              |   178 MB    00:40 ETAGet/Verify base79.tgz    50% |*************             |   182 MB    00:40 ETAGet/Verify base79.tgz    51% |*************             |   186 MB    00:39 ETAGet/Verify base79.tgz    52% |*************             |   190 MB    00:38 ETAGet/Verify base79.tgz    53% |*************             |   194 MB    00:37 ETAGet/Verify base79.tgz    55% |**************            |   199 MB    00:36 ETAGet/Verify base79.tgz    56% |**************            |   204 MB    00:35 ETAGet/Verify base79.tgz    57% |**************            |   208 MB    00:34 ETAGet/Verify base79.tgz    58% |***************           |   212 MB    00:33 ETAGet/Verify base79.tgz    60% |***************           |   217 MB    00:32 ETAGet/Verify base79.tgz    61% |***************           |   221 MB    00:31 ETAGet/Verify base79.tgz    62% |****************          |   225 MB    00:30 ETAGet/Verify base79.tgz    63% |****************          |   230 MB    00:29 ETAGet/Verify base79.tgz    65% |****************          |   235 MB    00:28 ETAGet/Verify base79.tgz    66% |*****************         |   240 MB    00:27 ETAGet/Verify base79.tgz    67% |*****************         |   243 MB    00:26 ETAGet/Verify base79.tgz    68% |*****************         |   248 MB    00:25 ETAGet/Verify base79.tgz    70% |******************        |   253 MB    00:24 ETAGet/Verify base79.tgz    71% |******************        |   257 MB    00:23 ETAGet/Verify base79.tgz    72% |******************        |   262 MB    00:22 ETAGet/Verify base79.tgz    73% |******************        |   266 MB    00:21 ETAGet/Verify base79.tgz    74% |*******************       |   270 MB    00:20 ETAGet/Verify base79.tgz    76% |*******************       |   275 MB    00:19 ETAGet/Verify base79.tgz    77% |********************      |   279 MB    00:18 ETAGet/Verify base79.tgz    78% |********************      |   282 MB    00:17 ETAGet/Verify base79.tgz    79% |********************      |   287 MB    00:16 ETAGet/Verify base79.tgz    80% |********************      |   291 MB    00:15 ETAGet/Verify base79.tgz    81% |*********************     |   296 MB    00:14 ETAGet/Verify base79.tgz    83% |*********************     |   300 MB    00:13 ETAGet/Verify base79.tgz    84% |*********************     |   305 MB    00:12 ETAGet/Verify base79.tgz    85% |**********************    |   309 MB    00:11 ETAGet/Verify base79.tgz    86% |**********************    |   313 MB    00:10 ETAGet/Verify base79.tgz    87% |**********************    |   317 MB    00:09 ETAGet/Verify base79.tgz    88% |**********************    |   321 MB    00:09 ETAGet/Verify base79.tgz    90% |***********************   |   325 MB    00:08 ETAGet/Verify base79.tgz    91% |***********************   |   329 MB    00:07 ETAGet/Verify base79.tgz    92% |***********************   |   334 MB    00:06 ETAGet/Verify base79.tgz    93% |************************  |   339 MB    00:05 ETAGet/Verify base79.tgz    95% |************************  |   343 MB    00:04 ETAGet/Verify base79.tgz    96% |************************  |   348 MB    00:03 ETAGet/Verify base79.tgz    97% |************************* |   352 MB    00:02 ETAGet/Verify base79.tgz    98% |************************* |   357 MB    00:00 ETAGet/Verify base79.tgz   100% |**************************|   361 MB    01:21    
+Get/Verify comp79.tgz     0% |                          |     0       --:-- ETAGet/Verify comp79.tgz     4% |*                         |  3840 KB    00:21 ETAGet/Verify comp79.tgz     9% |**                        |  7808 KB    00:20 ETAGet/Verify comp79.tgz    15% |***                       | 12928 KB    00:16 ETAGet/Verify comp79.tgz    19% |****                      | 17024 KB    00:16 ETAGet/Verify comp79.tgz    24% |******                    | 21376 KB    00:15 ETAGet/Verify comp79.tgz    30% |*******                   | 26240 KB    00:13 ETAGet/Verify comp79.tgz    35% |*********                 | 30464 KB    00:12 ETAGet/Verify comp79.tgz    41% |**********                | 35584 KB    00:11 ETAGet/Verify comp79.tgz    46% |***********               | 39552 KB    00:10 ETAGet/Verify comp79.tgz    51% |*************             | 43776 KB    00:09 ETAGet/Verify comp79.tgz    56% |**************            | 48512 KB    00:08 ETAGet/Verify comp79.tgz    62% |****************          | 53760 KB    00:07 ETAGet/Verify comp79.tgz    67% |*****************         | 57600 KB    00:06 ETAGet/Verify comp79.tgz    73% |******************        | 62592 KB    00:05 ETAGet/Verify comp79.tgz    78% |********************      | 66944 KB    00:04 ETAGet/Verify comp79.tgz    83% |*********************     | 71424 KB    00:03 ETAGet/Verify comp79.tgz    88% |**********************    | 75904 KB    00:02 ETAGet/Verify comp79.tgz    93% |************************  | 80384 KB    00:01 ETAGet/Verify comp79.tgz    99% |************************* | 84992 KB    00:00 ETAGet/Verify comp79.tgz   100% |**************************| 85531 KB    00:19    
+Get/Verify BUILDINFO      0% |                          |     0       --:-- ETAGet/Verify BUILDINFO    100% |**************************|    54       00:00    
+Installing bsd            0% |                          |     0       --:-- ETAInstalling bsd          100% |**************************| 19090 KB    00:00    
+Installing bsd.mp         0% |                          |     0       --:-- ETAInstalling bsd.mp       100% |**************************| 19161 KB    00:00    
+Installing bsd.rd         0% |                          |     0       --:-- ETAInstalling bsd.rd       100% |**************************| 18293 KB    00:00    
+Installing base79.tgz     0% |                          |     0       --:-- ETAInstalling base79.tgz     0% |                          |  1664 KB    03:50 ETAInstalling base79.tgz     0% |                          |  3072 KB    04:03 ETAInstalling base79.tgz     1% |                          |  3840 KB    04:50 ETAInstalling base79.tgz     1% |                          |  4480 KB    05:29 ETAInstalling base79.tgz     1% |                          |  5888 KB    05:11 ETAInstalling base79.tgz     2% |                          |  7808 KB    04:40 ETAInstalling base79.tgz     2% |                          |  9600 KB    04:24 ETAInstalling base79.tgz     3% |                          | 11648 KB    04:07 ETAInstalling base79.tgz     3% |                          | 13952 KB    03:50 ETAInstalling base79.tgz     4% |*                         | 15616 KB    03:47 ETAInstalling base79.tgz     4% |*                         | 18048 KB    03:35 ETAInstalling base79.tgz     5% |*                         | 20480 KB    03:25 ETAInstalling base79.tgz     6% |*                         | 22528 KB    03:21 ETAInstalling base79.tgz     6% |*                         | 24704 KB    03:16 ETAInstalling base79.tgz     7% |*                         | 26624 KB    03:13 ETAInstalling base79.tgz     7% |*                         | 27520 KB    03:21 ETAInstalling base79.tgz     7% |*                         | 29440 KB    03:17 ETAInstalling base79.tgz     8% |**                        | 31872 KB    03:11 ETAInstalling base79.tgz     9% |**                        | 34176 KB    03:07 ETAInstalling base79.tgz     9% |**                        | 36224 KB    03:04 ETAInstalling base79.tgz    10% |**                        | 38912 KB    02:58 ETAInstalling base79.tgz    11% |**                        | 41856 KB    02:52 ETAInstalling base79.tgz    11% |**                        | 44288 KB    02:49 ETAInstalling base79.tgz    12% |***                       | 46592 KB    02:46 ETAInstalling base79.tgz    13% |***                       | 49408 KB    02:42 ETAInstalling base79.tgz    14% |***                       | 52608 KB    02:37 ETAInstalling base79.tgz    14% |***                       | 55296 KB    02:33 ETAInstalling base79.tgz    15% |***                       | 56832 KB    02:34 ETAInstalling base79.tgz    15% |***                       | 58624 KB    02:34 ETAInstalling base79.tgz    16% |****                      | 60032 KB    02:35 ETAInstalling base79.tgz    16% |****                      | 62720 KB    02:32 ETAInstalling base79.tgz    17% |****                      | 66176 KB    02:27 ETAInstalling base79.tgz    18% |****                      | 69248 KB    02:23 ETAInstalling base79.tgz    19% |****                      | 72320 KB    02:20 ETAInstalling base79.tgz    20% |*****                     | 75520 KB    02:16 ETAInstalling base79.tgz    21% |*****                     | 78848 KB    02:13 ETAInstalling base79.tgz    22% |*****                     | 81920 KB    02:10 ETAInstalling base79.tgz    22% |*****                     | 84992 KB    02:07 ETAInstalling base79.tgz    23% |*****                     | 87040 KB    02:06 ETAInstalling base79.tgz    24% |******                    | 89600 KB    02:05 ETAInstalling base79.tgz    24% |******                    | 91904 KB    02:04 ETAInstalling base79.tgz    25% |******                    | 93184 KB    02:04 ETAInstalling base79.tgz    25% |******                    | 94976 KB    02:04 ETAInstalling base79.tgz    26% |******                    | 97408 KB    02:03 ETAInstalling base79.tgz    27% |*******                   |    98 MB    02:00 ETAInstalling base79.tgz    28% |*******                   |   101 MB    01:57 ETAInstalling base79.tgz    28% |*******                   |   104 MB    01:55 ETAInstalling base79.tgz    29% |*******                   |   108 MB    01:52 ETAInstalling base79.tgz    30% |*******                   |   111 MB    01:50 ETAInstalling base79.tgz    31% |********                  |   113 MB    01:49 ETAInstalling base79.tgz    31% |********                  |   114 MB    01:49 ETAInstalling base79.tgz    32% |********                  |   116 MB    01:50 ETAInstalling base79.tgz    32% |********                  |   117 MB    01:50 ETAInstalling base79.tgz    32% |********                  |   118 MB    01:50 ETAInstalling base79.tgz    33% |********                  |   120 MB    01:50 ETAInstalling base79.tgz    33% |********                  |   121 MB    01:50 ETAInstalling base79.tgz    34% |********                  |   123 MB    01:49 ETAInstalling base79.tgz    34% |********                  |   125 MB    01:49 ETAInstalling base79.tgz    34% |********                  |   126 MB    01:49 ETAInstalling base79.tgz    35% |*********                 |   128 MB    01:49 ETAInstalling base79.tgz    36% |*********                 |   130 MB    01:47 ETAInstalling base79.tgz    36% |*********                 |   133 MB    01:45 ETAInstalling base79.tgz    37% |*********                 |   136 MB    01:43 ETAInstalling base79.tgz    38% |*********                 |   140 MB    01:40 ETAInstalling base79.tgz    40% |**********                |   147 MB    01:34 ETAInstalling base79.tgz    42% |**********                |   155 MB    01:27 ETAInstalling base79.tgz    44% |***********               |   161 MB    01:23 ETAInstalling base79.tgz    45% |***********               |   165 MB    01:20 ETAInstalling base79.tgz    46% |***********               |   167 MB    01:19 ETAInstalling base79.tgz    47% |************              |   170 MB    01:18 ETAInstalling base79.tgz    47% |************              |   172 MB    01:17 ETAInstalling base79.tgz    48% |************              |   175 MB    01:16 ETAInstalling base79.tgz    49% |************              |   178 MB    01:14 ETAInstalling base79.tgz    50% |*************             |   182 MB    01:12 ETAInstalling base79.tgz    51% |*************             |   184 MB    01:11 ETAInstalling base79.tgz    51% |*************             |   187 MB    01:10 ETAInstalling base79.tgz    52% |*************             |   190 MB    01:09 ETAInstalling base79.tgz    53% |*************             |   193 MB    01:07 ETAInstalling base79.tgz    54% |**************            |   196 MB    01:06 ETAInstalling base79.tgz    54% |**************            |   198 MB    01:05 ETAInstalling base79.tgz    55% |**************            |   201 MB    01:04 ETAInstalling base79.tgz    56% |**************            |   203 MB    01:03 ETAInstalling base79.tgz    57% |**************            |   206 MB    01:02 ETAInstalling base79.tgz    57% |**************            |   208 MB    01:01 ETAInstalling base79.tgz    58% |***************           |   210 MB    01:00 ETAInstalling base79.tgz    59% |***************           |   213 MB    00:59 ETAInstalling base79.tgz    59% |***************           |   216 MB    00:58 ETAInstalling base79.tgz    60% |***************           |   218 MB    00:57 ETAInstalling base79.tgz    61% |***************           |   220 MB    00:56 ETAInstalling base79.tgz    61% |***************           |   223 MB    00:55 ETAInstalling base79.tgz    62% |****************          |   226 MB    00:54 ETAInstalling base79.tgz    63% |****************          |   229 MB    00:53 ETAInstalling base79.tgz    64% |****************          |   232 MB    00:51 ETAInstalling base79.tgz    65% |****************          |   235 MB    00:50 ETAInstalling base79.tgz    65% |****************          |   237 MB    00:49 ETAInstalling base79.tgz    66% |*****************         |   240 MB    00:48 ETAInstalling base79.tgz    67% |*****************         |   243 MB    00:46 ETAInstalling base79.tgz    68% |*****************         |   246 MB    00:45 ETAInstalling base79.tgz    69% |*****************         |   249 MB    00:44 ETAInstalling base79.tgz    69% |*****************         |   251 MB    00:43 ETAInstalling base79.tgz    70% |******************        |   254 MB    00:42 ETAInstalling base79.tgz    71% |******************        |   257 MB    00:40 ETAInstalling base79.tgz    72% |******************        |   260 MB    00:39 ETAInstalling base79.tgz    73% |******************        |   264 MB    00:38 ETAInstalling base79.tgz    73% |******************        |   266 MB    00:37 ETAInstalling base79.tgz    74% |*******************       |   269 MB    00:36 ETAInstalling base79.tgz    75% |*******************       |   272 MB    00:34 ETAInstalling base79.tgz    76% |*******************       |   274 MB    00:33 ETAInstalling base79.tgz    76% |*******************       |   278 MB    00:32 ETAInstalling base79.tgz    77% |********************      |   280 MB    00:31 ETAInstalling base79.tgz    78% |********************      |   283 MB    00:30 ETAInstalling base79.tgz    79% |********************      |   286 MB    00:29 ETAInstalling base79.tgz    79% |********************      |   288 MB    00:28 ETAInstalling base79.tgz    80% |********************      |   291 MB    00:27 ETAInstalling base79.tgz    81% |*********************     |   294 MB    00:25 ETAInstalling base79.tgz    82% |*********************     |   297 MB    00:24 ETAInstalling base79.tgz    83% |*********************     |   300 MB    00:23 ETAInstalling base79.tgz    83% |*********************     |   303 MB    00:22 ETAInstalling base79.tgz    84% |*********************     |   306 MB    00:21 ETAInstalling base79.tgz    85% |**********************    |   309 MB    00:20 ETAInstalling base79.tgz    86% |**********************    |   311 MB    00:19 ETAInstalling base79.tgz    87% |**********************    |   314 MB    00:18 ETAInstalling base79.tgz    87% |**********************    |   317 MB    00:17 ETAInstalling base79.tgz    88% |**********************    |   320 MB    00:15 ETAInstalling base79.tgz    89% |***********************   |   323 MB    00:14 ETAInstalling base79.tgz    90% |***********************   |   327 MB    00:13 ETAInstalling base79.tgz    91% |***********************   |   330 MB    00:11 ETAInstalling base79.tgz    92% |***********************   |   333 MB    00:10 ETAInstalling base79.tgz    93% |************************  |   336 MB    00:09 ETAInstalling base79.tgz    93% |************************  |   338 MB    00:08 ETAInstalling base79.tgz    94% |************************  |   341 MB    00:07 ETAInstalling base79.tgz    95% |************************  |   343 MB    00:06 ETAInstalling base79.tgz    96% |************************  |   346 MB    00:05 ETAInstalling base79.tgz    96% |************************  |   349 MB    00:04 ETAInstalling base79.tgz    97% |************************* |   352 MB    00:03 ETAInstalling base79.tgz    97% |************************* |   353 MB    00:02 ETAInstalling base79.tgz    98% |************************* |   354 MB    00:02 ETAInstalling base79.tgz    98% |************************* |   356 MB    00:01 ETAInstalling base79.tgz    99% |************************* |   357 MB    00:01 ETAInstalling base79.tgz    99% |************************* |   359 MB    00:00 ETAInstalling base79.tgz    99% |************************* |   359 MB    00:00 ETAInstalling base79.tgz    99% |************************* |   359 MB    00:00 ETAInstalling base79.tgz    99% |************************* |   360 MB    00:00 ETAInstalling base79.tgz    99% |************************* |   360 MB    00:00 ETAInstalling base79.tgz    99% |************************* |   360 MB    00:00 ETAInstalling base79.tgz    99% |************************* |   360 MB    00:00 ETAInstalling base79.tgz    99% |************************* |   360 MB    00:00 ETAInstalling base79.tgz   100% |**************************|   361 MB    02:27    
+Extracting etc.tgz        0% |                          |     0       --:-- ETAExtracting etc.tgz      100% |**************************|   269 KB    00:00    
+Installing comp79.tgz     0% |                          |     0       --:-- ETAInstalling comp79.tgz     1% |                          |  1536 KB    00:55 ETAInstalling comp79.tgz     3% |                          |  2816 KB    00:59 ETAInstalling comp79.tgz     5% |*                         |  4480 KB    00:54 ETAInstalling comp79.tgz     6% |*                         |  5760 KB    00:55 ETAInstalling comp79.tgz     8% |**                        |  7424 KB    00:52 ETAInstalling comp79.tgz    11% |**                        |  9472 KB    00:48 ETAInstalling comp79.tgz    13% |***                       | 11520 KB    00:45 ETAInstalling comp79.tgz    16% |****                      | 13696 KB    00:42 ETAInstalling comp79.tgz    18% |****                      | 15744 KB    00:39 ETAInstalling comp79.tgz    20% |*****                     | 17152 KB    00:39 ETAInstalling comp79.tgz    21% |*****                     | 18816 KB    00:39 ETAInstalling comp79.tgz    24% |******                    | 21120 KB    00:36 ETAInstalling comp79.tgz    27% |*******                   | 23424 KB    00:34 ETAInstalling comp79.tgz    30% |*******                   | 25728 KB    00:32 ETAInstalling comp79.tgz    32% |********                  | 28032 KB    00:30 ETAInstalling comp79.tgz    35% |*********                 | 30336 KB    00:29 ETAInstalling comp79.tgz    38% |*********                 | 33152 KB    00:26 ETAInstalling comp79.tgz    41% |**********                | 35072 KB    00:25 ETAInstalling comp79.tgz    42% |**********                | 36608 KB    00:25 ETAInstalling comp79.tgz    45% |***********               | 38784 KB    00:24 ETAInstalling comp79.tgz    48% |************              | 41600 KB    00:22 ETAInstalling comp79.tgz    51% |*************             | 43648 KB    00:21 ETAInstalling comp79.tgz    53% |*************             | 45568 KB    00:20 ETAInstalling comp79.tgz    55% |**************            | 47744 KB    00:19 ETAInstalling comp79.tgz    58% |***************           | 49792 KB    00:17 ETAInstalling comp79.tgz    59% |***************           | 50816 KB    00:17 ETAInstalling comp79.tgz    61% |***************           | 52480 KB    00:17 ETAInstalling comp79.tgz    62% |****************          | 53760 KB    00:16 ETAInstalling comp79.tgz    64% |****************          | 55552 KB    00:15 ETAInstalling comp79.tgz    67% |*****************         | 57344 KB    00:14 ETAInstalling comp79.tgz    70% |******************        | 59904 KB    00:13 ETAInstalling comp79.tgz    73% |******************        | 62592 KB    00:11 ETAInstalling comp79.tgz    76% |*******************       | 65280 KB    00:10 ETAInstalling comp79.tgz    79% |********************      | 67712 KB    00:08 ETAInstalling comp79.tgz    82% |*********************     | 70400 KB    00:07 ETAInstalling comp79.tgz    84% |*********************     | 72320 KB    00:06 ETAInstalling comp79.tgz    85% |**********************    | 73088 KB    00:06 ETAInstalling comp79.tgz    86% |**********************    | 73600 KB    00:06 ETAInstalling comp79.tgz    87% |**********************    | 74496 KB    00:05 ETAInstalling comp79.tgz    88% |**********************    | 75648 KB    00:05 ETAInstalling comp79.tgz    89% |***********************   | 76800 KB    00:04 ETAInstalling comp79.tgz    91% |***********************   | 77952 KB    00:04 ETAInstalling comp79.tgz    92% |***********************   | 78976 KB    00:03 ETAInstalling comp79.tgz    93% |************************  | 79616 KB    00:03 ETAInstalling comp79.tgz    93% |************************  | 80256 KB    00:02 ETAInstalling comp79.tgz    94% |************************  | 81024 KB    00:02 ETAInstalling comp79.tgz    95% |************************  | 81664 KB    00:02 ETAInstalling comp79.tgz    96% |************************  | 82176 KB    00:01 ETAInstalling comp79.tgz    96% |************************  | 82432 KB    00:01 ETAInstalling comp79.tgz    96% |************************  | 82944 KB    00:01 ETAInstalling comp79.tgz    97% |************************* | 83328 KB    00:01 ETAInstalling comp79.tgz    98% |************************* | 84096 KB    00:00 ETAInstalling comp79.tgz    98% |************************* | 84352 KB    00:00 ETAInstalling comp79.tgz    99% |************************* | 84864 KB    00:00 ETAInstalling comp79.tgz    99% |************************* | 85120 KB    00:00 ETAInstalling comp79.tgz   100% |**************************| 85531 KB    00:55    
+Installing BUILDINFO      0% |                          |     0       --:-- ETAInstalling BUILDINFO    100% |**************************|    54       00:00    
+Location of sets? (disk http nfs or 'done') [done] done
+Saving configuration files... done.
+Making all device nodes... done.
+Multiprocessor machine; using bsd.mp instead of bsd.
+fw_update: add none; update none
+Relinking to create unique kernel... done.
+
+CONGRATULATIONS! Your OpenBSD install has been successfully completed!
+
+When you login to your new system the first time, please read your mail
+using the 'mail' command.
+
+syncing disks... done
+rebooting...
+UEFI firmware (version  built at 13:10:49 on Nov  5 2024)
+[2J[01;01H[=3h[2J[01;01H[2J[01;01H[=3h[2J[01;01HBdsDxe: loading Boot0001 "UEFI Misc Device" from PciRoot(0x0)/Pci(0x2,0x0)
+BdsDxe: starting Boot0001 "UEFI Misc Device" from PciRoot(0x0)/Pci(0x2,0x0)
+disks: sd0* sd1
+>> OpenBSD/arm64 BOOTAA64 1.24
+|/-\|/-\|/boot> 
+-\|/-\|/-\booting sd0a:/bsd: |/-\|/12756152-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/+3012368-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\+323808|/-\|/-\|/-\|/-\|/+868280- [1115535\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\+91+1405416|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/+903616-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|]=0x1667530
+FACP APIC PPTT GTDT MCFG SPCR DBG2 IORT 
+[ using 3425432 bytes of bsd ELF symbol table ]
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+	The Regents of the University of California.  All rights reserved.
+Copyright (c) 1995-2026 OpenBSD. All rights reserved.  https://www.OpenBSD.org
+
+OpenBSD 7.9 (GENERIC.MP) #222: Wed May  6 18:07:56 MDT 2026
+    deraadt@arm64.openbsd.org:/usr/src/sys/arch/arm64/compile/GENERIC.MP
+real mem  = 3212709888 (3063MB)
+avail mem = 3070476288 (2928MB)
+random: good seed from bootblocks
+mainbus0 at root: ACPI
+psci0 at mainbus0: PSCI 1.1
+efi0 at mainbus0: UEFI 2.7
+efi0: EDK II rev 0x10000
+smbios0 at efi0: SMBIOS 3.0.0
+smbios0:
+smbios0: QEMU QEMU Virtual Machine
+cpu0 at mainbus0 mpidr 0: ARM Cortex-A72 r0p3
+cpu0: 48KB 64b/line 3-way L1 PIPT I-cache, 32KB 64b/line 2-way L1 D-cache
+cpu0: 1024KB 64b/line 16-way L2 cache
+cpu0: CRC32,SHA2,SHA1,AES+PMULL,ASID16
+cpu1 at mainbus0 mpidr 1: ARM Cortex-A72 r0p3
+cpu1: 48KB 64b/line 3-way L1 PIPT I-cache, 32KB 64b/line 2-way L1 D-cache
+cpu1: 1024KB 64b/line 16-way L2 cache
+cpu2 at mainbus0 mpidr 2: ARM Cortex-A72 r0p3
+cpu2: 48KB 64b/line 3-way L1 PIPT I-cache, 32KB 64b/line 2-way L1 D-cache
+cpu2: 1024KB 64b/line 16-way L2 cache
+cpu3 at mainbus0 mpidr 3: ARM Cortex-A72 r0p3
+cpu3: 48KB 64b/line 3-way L1 PIPT I-cache, 32KB 64b/line 2-way L1 D-cache
+cpu3: 1024KB 64b/line 16-way L2 cache
+apm0 at mainbus0
+ampintc0 at mainbus0 nirq 288, ncpu 4 ipi 0: "interrupt-controller"
+ampintcmsi0 at ampintc0: nspi 64
+agtimer0 at mainbus0: 62500 kHz
+acpi0 at mainbus0: ACPI 6.0
+acpi0: sleep states
+acpi0: tables DSDT FACP APIC PPTT GTDT MCFG SPCR DBG2 IORT
+acpi0: wakeup devices
+acpimcfg0 at acpi0
+acpimcfg0: addr 0x4010000000, bus 0-255
+acpiiort0 at acpi0
+acpicpu0 at acpi0 C000
+acpicpu1 at acpi0 C001
+acpicpu2 at acpi0 C002
+acpicpu3 at acpi0 C003
+pluart0 at acpi0 COM0 addr 0x9000000/0x1000 irq 33
+pluart0: console
+"QEMU0002" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+"LNRO0005" at acpi0 not configured
+acpipci0 at acpi0 PCI0
+pci0 at acpipci0
+"Red Hat Host" rev 0x00 at pci0 dev 0 function 0 not configured
+virtio0 at pci0 dev 1 function 0 "Qumranet Virtio Network" rev 0x00
+vio0 at virtio0: 1 queue, address 52:54:00:12:34:56
+virtio0: irq 36
+virtio1 at pci0 dev 2 function 0 "Qumranet Virtio Storage" rev 0x00
+vioblk0 at virtio1
+virtio1: msix per-VQ
+scsibus0 at vioblk0: 1 targets
+sd0 at scsibus0 targ 0 lun 0: <VirtIO, Block Device, >
+sd0: 12288MB, 512 bytes/sector, 25165824 sectors
+virtio2 at pci0 dev 3 function 0 "Qumranet Virtio Storage" rev 0x00
+vioblk1 at virtio2
+virtio2: msix per-VQ
+scsibus1 at vioblk1: 1 targets
+sd1 at scsibus1 targ 0 lun 0: <VirtIO, Block Device, >
+sd1: 43MB, 512 bytes/sector, 88064 sectors
+acpige0 at acpi0 irq 41
+acpibtn0 at acpi0: PWRB
+vscsi0 at root
+scsibus2 at vscsi0: 256 targets
+softraid0 at root
+scsibus3 at softraid0: 256 targets
+root on sd0a (74fc32e34a88404c.a) swap on sd0b dump on sd0b
+Automatic boot in progress: starting file system checks.
+/dev/sd0a (74fc32e34a88404c.a): file system is clean; not checking
+/dev/sd0e (74fc32e34a88404c.e): file system is clean; not checking
+/dev/sd0d (74fc32e34a88404c.d): file system is clean; not checking
+pf enabled
+starting network
+reordering: ld.so libc libcrypto sshd sshd-session sshd-auth ssh-agent.
+openssl: generating isakmpd RSA keys... done.
+openssl: generating iked ECDSA keys... done.
+ssh-keygen: generating new host keys: RSA ECDSA ED25519 
+sshd: (ED25519) SHA256:EQ7B3XuGnNOuUe4SV34eCxNLXUAH5vrlE7OM/RJwW4I
+starting early daemons: syslogd pflogd ntpd.
+starting RPC daemons:.
+savecore: no core dump
+checking quotas: done.
+clearing /tmp
+kern.securelevel: 0 -> 1
+creating runtime link editor directory cache.
+preserving editor files.
+starting network daemons: sshd smtpd sndiod.
+running rc.firsttime
+fw_update: add none; update none
+Checking for available binary patches...
+syspatch: Error retrieving http://10.0.2.2:8000/pub/OpenBSD/syspatch/7.9/arm64/SHA256.sig: 404 File not found
+starting local daemons: cron.
+Mon Oct 12 21:42:12 UTC 2026
+
+OpenBSD/arm64 (openbsd.my.domain) (console)
+
+login: Warning: Permanently added '[127.0.0.1]:2222' (ED25519) to the list of known hosts.
+OpenBSD 7.9 arm64
+== cc -O2 
+platform: little-endian, 64-bit pointers, OpenBSD
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+== cc -O2 -DRAM_NO_SIMD
+platform: little-endian, 64-bit pointers, OpenBSD
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+== cc -O2 -DRAM_RESEARCH
+platform: little-endian, 64-bit pointers, OpenBSD
+5 RAM-Balloon vectors
+88 known-answer vectors (0 research-only, correctly refused), 0 failures
+VM exit status 0

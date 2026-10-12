@@ -1,0 +1,8 @@
+{"id": "P-1-4", "result": "sat", "seconds": 0.4, "verified": true}
+{"id": "P-1-8", "result": "sat", "seconds": 0.5, "verified": true}
+{"id": "C-1-8", "result": "sat", "seconds": 0.7, "verified": true}
+{"id": "P-2-4", "result": "unknown", "seconds": 60.5}
+{"id": "C-2-8", "result": "unknown", "seconds": 60.1}
+{"id": "P-3-4", "result": "unknown", "seconds": 60.2}
+{"id": "C-1-16", "result": "sat", "seconds": 0.5, "verified": true}
+{"id": "P-2-8", "result": "unknown", "seconds": 60.0}

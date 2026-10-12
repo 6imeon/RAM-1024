@@ -1,0 +1,19 @@
+[ 12%] Building C object CMakeFiles/ram.dir/csrc/ram1024.c.o
+[ 25%] Building C object CMakeFiles/ram_static.dir/csrc/ram1024.c.o
+[ 37%] Linking C shared library libram.so
+[ 50%] Linking C static library libram_static.a
+[ 50%] Built target ram
+[ 50%] Built target ram_static
+[ 62%] Building C object CMakeFiles/ramsum.dir/csrc/ramsum.c.o
+[ 75%] Building C object CMakeFiles/ram_test.dir/csrc/ram_test.c.o
+[ 87%] Linking C executable ramsum
+[ 87%] Built target ramsum
+[100%] Linking C executable ram_test
+[100%] Built target ram_test
+Test project /$W/build
+    Start 1: conformance
+1/1 Test #1: conformance ......................   Passed    0.07 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.08 sec

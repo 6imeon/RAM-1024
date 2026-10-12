@@ -1,0 +1,22 @@
+PASS alpine-musl-clang (linux/arm64, alpine:3.20) 29s
+FAIL android-termux (linux/arm64, termux/termux-docker:aarch64) 1216s
+PASS cmake (linux/arm64, debian:bookworm-slim) 64s
+PASS constant-time (linux/arm64, debian:bookworm-slim) 98s
+PASS freebsd-arm64 (linux/arm64, debian:bookworm-slim) 383s
+PASS fuzz (linux/arm64, debian:bookworm-slim) 391s
+PASS linux-arm64-gcc (linux/arm64, debian:bookworm-slim) 69s
+PASS linux-i386-gcc (linux/386, debian:bookworm-slim) 258s
+PASS linux-ppc64le-gcc (linux/ppc64le, ubuntu:24.04) 251s
+PASS linux-riscv64-gcc (linux/riscv64, ubuntu:24.04) 218s
+PASS linux-s390x-bigendian (linux/s390x, ubuntu:24.04) 221s
+PASS linux-x86_64-gcc (linux/amd64, debian:bookworm-slim) 162s
+PASS openbsd-arm64 (linux/arm64, debian:bookworm-slim) 713s
+PASS pip-linux (linux/amd64, debian:bookworm-slim) 176s
+PASS pip-no-compiler (linux/arm64, debian:bookworm-slim) 44s
+PASS sanitizers (linux/arm64, debian:bookworm-slim) 100s
+PASS strict-c99 (linux/arm64, debian:bookworm-slim) 124s
+PASS tcc-no-simd (linux/amd64, debian:bookworm-slim) 68s
+PASS windows-x64-mingw (linux/amd64, debian:bookworm-slim) 329s
+PASS windows-x64-msvc (linux/amd64, debian:bookworm-slim) 354s
+PASS windows-x86-mingw (linux/amd64, debian:bookworm-slim) 286s
+exit=1

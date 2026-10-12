@@ -1,0 +1,1 @@
+./build/trail_search 12 8 > results/trails_v3.json  51.73s user 0.32s system 99% cpu 52.538 total

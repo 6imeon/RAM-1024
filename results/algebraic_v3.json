@@ -1,0 +1,64 @@
+{
+ "kmax": 16,
+ "zero_sum": {
+  "forward_1": [
+   1,
+   0,
+   1906
+  ],
+  "forward_2": [
+   1,
+   0,
+   1135
+  ],
+  "forward_3": [
+   1,
+   0,
+   550
+  ],
+  "forward_4": null,
+  "forward_5": null,
+  "forward_reach": 3,
+  "backward_1": [
+   1,
+   0,
+   2031
+  ],
+  "backward_2": [
+   1,
+   0,
+   1946
+  ],
+  "backward_3": [
+   1,
+   0,
+   1590
+  ],
+  "backward_4": [
+   1,
+   0,
+   810
+  ],
+  "backward_5": [
+   1,
+   0,
+   35
+  ],
+  "backward_6": [
+   1,
+   0,
+   22
+  ],
+  "backward_7": null,
+  "backward_8": null,
+  "backward_reach": 6
+ },
+ "affine": {
+  "forward_1": 0,
+  "forward_reach": 0,
+  "backward_1": 32,
+  "backward_2": 0,
+  "backward_reach": 1
+ },
+ "zero_sum_inside_out_steps": 9
+}

@@ -1,0 +1,906 @@
+{
+ "config": {
+  "sac_samples": 4000,
+  "cube_kmax": 18,
+  "nn_train": 1000000,
+  "nn_test": 200000,
+  "nn_epochs": 5,
+  "rand_blocks": 2097152
+ },
+ "ram_rounds": 64,
+ "algs": {
+  "SHA-256": {
+   "full_rounds": 64,
+   "sac": {
+    "rows": [
+     {
+      "round": 1,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.995025634765625,
+      "best_delta_bits": [
+       255,
+       349,
+       348,
+       347
+      ]
+     },
+     {
+      "round": 2,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.9747161865234375,
+      "best_delta_bits": [
+       255,
+       349,
+       348,
+       347
+      ]
+     },
+     {
+      "round": 3,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.9385147094726562,
+      "best_delta_bits": [
+       255,
+       349,
+       348,
+       347
+      ]
+     },
+     {
+      "round": 4,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.8869094848632812,
+      "best_delta_bits": [
+       255,
+       349,
+       348,
+       347
+      ]
+     },
+     {
+      "round": 5,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.8242034912109375,
+      "best_delta_bits": [
+       255,
+       349,
+       348,
+       347
+      ]
+     },
+     {
+      "round": 6,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.7617645263671875,
+      "best_delta_bits": [
+       255,
+       349,
+       348,
+       347
+      ]
+     },
+     {
+      "round": 7,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.7001113891601562,
+      "best_delta_bits": [
+       255,
+       349,
+       348,
+       347
+      ]
+     },
+     {
+      "round": 8,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.6369705200195312,
+      "best_delta_bits": [
+       511,
+       348,
+       347,
+       346
+      ]
+     },
+     {
+      "round": 9,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.5738601684570312,
+      "best_delta_bits": [
+       511,
+       366,
+       365,
+       364
+      ]
+     },
+     {
+      "round": 10,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.5121917724609375,
+      "best_delta_bits": [
+       511,
+       387,
+       386,
+       385
+      ]
+     },
+     {
+      "round": 11,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.449554443359375,
+      "best_delta_bits": [
+       511,
+       407,
+       406,
+       405
+      ]
+     },
+     {
+      "round": 12,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.38700103759765625,
+      "best_delta_bits": [
+       511,
+       415,
+       416,
+       417
+      ]
+     },
+     {
+      "round": 13,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.32434844970703125,
+      "best_delta_bits": [
+       511,
+       440,
+       441,
+       442
+      ]
+     },
+     {
+      "round": 14,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.26226806640625,
+      "best_delta_bits": [
+       511,
+       477,
+       476,
+       475
+      ]
+     },
+     {
+      "round": 15,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.19940948486328125,
+      "best_delta_bits": [
+       511,
+       481,
+       482,
+       483
+      ]
+     },
+     {
+      "round": 16,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.1370086669921875,
+      "best_delta_bits": [
+       487,
+       486,
+       485,
+       484
+      ]
+     },
+     {
+      "round": 17,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.0795745849609375,
+      "best_delta_bits": [
+       487,
+       486,
+       485,
+       484
+      ]
+     },
+     {
+      "round": 18,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.0381317138671875,
+      "best_delta_bits": [
+       487,
+       486,
+       485,
+       484
+      ]
+     },
+     {
+      "round": 19,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.01113128662109375,
+      "best_delta_bits": [
+       487,
+       486,
+       485,
+       497
+      ]
+     },
+     {
+      "round": 20,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.00037384033203125,
+      "best_delta_bits": [
+       487,
+       486,
+       485,
+       497
+      ]
+     },
+     {
+      "round": 21,
+      "zmax": 55.75,
+      "pass": false,
+      "never_flips": 0.0,
+      "best_delta_bits": [
+       487,
+       497,
+       508,
+       509
+      ]
+     },
+     {
+      "round": 22,
+      "zmax": 10.34,
+      "pass": false,
+      "never_flips": 0.0,
+      "best_delta_bits": [
+       497,
+       509,
+       39,
+       57
+      ]
+     },
+     {
+      "round": 23,
+      "zmax": 4.49,
+      "pass": true,
+      "never_flips": 0.0,
+      "best_delta_bits": [
+       341,
+       499,
+       38,
+       66
+      ]
+     },
+     {
+      "round": 24,
+      "zmax": 4.43,
+      "pass": true,
+      "never_flips": 0.0,
+      "best_delta_bits": [
+       133,
+       59,
+       194,
+       349
+      ]
+     }
+    ],
+    "full_diffusion_round": 23
+   },
+   "cube": {
+    "rows": [
+     {
+      "round": 22,
+      "distinguisher": null
+     },
+     {
+      "round": 23,
+      "distinguisher": null
+     }
+    ],
+    "kmax": 18,
+    "max_round_broken": 21
+   },
+   "neural": {
+    "rows": [
+     {
+      "round": 22,
+      "best": {
+       "delta_bit": 509,
+       "accuracy": 0.5152,
+       "z": 13.6
+      },
+      "distinguisher": true,
+      "deltas_tried": [
+       497,
+       509,
+       39,
+       57,
+       0,
+       511
+      ]
+     },
+     {
+      "round": 23,
+      "best": {
+       "delta_bit": 0,
+       "accuracy": 0.5011,
+       "z": 0.9
+      },
+      "distinguisher": false,
+      "deltas_tried": [
+       341,
+       499,
+       38,
+       66,
+       0,
+       511
+      ]
+     },
+     {
+      "round": 24,
+      "best": {
+       "delta_bit": 511,
+       "accuracy": 0.5012,
+       "z": 1.1
+      },
+      "distinguisher": false,
+      "deltas_tried": [
+       133,
+       59,
+       194,
+       349,
+       0,
+       511
+      ]
+     }
+    ],
+    "max_round_broken": 22,
+    "n_train": 1000000,
+    "epochs": 5
+   },
+   "max_round_broken_in_lab": 22,
+   "rounds_unbroken_in_lab": 42,
+   "margin_ratio": 2.91,
+   "randomness_full_rounds": {
+    "bytes": 67108864,
+    "monobit_z": 0.495,
+    "runs_z": -1.524,
+    "byte_chi2_z": -0.268,
+    "pair_chi2_z": -1.208,
+    "serial_corr_z": -0.112,
+    "trunc32_collisions": 127,
+    "trunc32_expected": 128.0,
+    "trunc32_z": -0.088
+   },
+   "speed_portable_c": {
+    "ns_per_block": 177.5,
+    "block_bytes": 64,
+    "mb_per_s": 360.5
+   },
+   "generic_security_log2": {
+    "output_bits": 256,
+    "capacity_bits": 256,
+    "collision_classical": 128,
+    "collision_quantum_BHT": 85.3,
+    "collision_quantum_CNS_no_qram": 102.4,
+    "preimage_classical": 256,
+    "preimage_quantum_grover": 128
+   }
+  },
+  "SHA3-512": {
+   "full_rounds": 24,
+   "sac": {
+    "rows": [
+     {
+      "round": 1,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.9794921875,
+      "best_delta_bits": [
+       339,
+       370,
+       85,
+       90
+      ]
+     },
+     {
+      "round": 2,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.54052734375,
+      "best_delta_bits": [
+       34,
+       62,
+       49,
+       40
+      ]
+     },
+     {
+      "round": 3,
+      "zmax": 20.05,
+      "pass": false,
+      "never_flips": 0.0,
+      "best_delta_bits": [
+       122,
+       65,
+       68,
+       91
+      ]
+     },
+     {
+      "round": 4,
+      "zmax": 4.78,
+      "pass": true,
+      "never_flips": 0.0,
+      "best_delta_bits": [
+       297,
+       359,
+       105,
+       333
+      ]
+     },
+     {
+      "round": 5,
+      "zmax": 4.62,
+      "pass": true,
+      "never_flips": 0.0,
+      "best_delta_bits": [
+       26,
+       18,
+       172,
+       65
+      ]
+     }
+    ],
+    "full_diffusion_round": 4
+   },
+   "cube": {
+    "rows": [
+     {
+      "round": 3,
+      "distinguisher": {
+       "cube_dim": 3,
+       "strategy": "random",
+       "constant_bits": 2
+      }
+     },
+     {
+      "round": 4,
+      "distinguisher": {
+       "cube_dim": 9,
+       "strategy": "contiguous",
+       "constant_bits": 256
+      }
+     },
+     {
+      "round": 5,
+      "distinguisher": null
+     },
+     {
+      "round": 6,
+      "distinguisher": null
+     }
+    ],
+    "kmax": 18,
+    "max_round_broken": 4
+   },
+   "neural": {
+    "rows": [
+     {
+      "round": 3,
+      "best": {
+       "delta_bit": 0,
+       "accuracy": 0.8114,
+       "z": 278.5
+      },
+      "distinguisher": true,
+      "deltas_tried": [
+       122,
+       65,
+       68,
+       91,
+       0,
+       511
+      ]
+     },
+     {
+      "round": 4,
+      "best": {
+       "delta_bit": 359,
+       "accuracy": 0.5016,
+       "z": 1.4
+      },
+      "distinguisher": false,
+      "deltas_tried": [
+       297,
+       359,
+       105,
+       333,
+       0,
+       511
+      ]
+     },
+     {
+      "round": 5,
+      "best": {
+       "delta_bit": 65,
+       "accuracy": 0.5012,
+       "z": 1.1
+      },
+      "distinguisher": false,
+      "deltas_tried": [
+       26,
+       18,
+       172,
+       65,
+       0,
+       511
+      ]
+     }
+    ],
+    "max_round_broken": 3,
+    "n_train": 1000000,
+    "epochs": 5
+   },
+   "max_round_broken_in_lab": 4,
+   "rounds_unbroken_in_lab": 20,
+   "margin_ratio": 6.0,
+   "randomness_full_rounds": {
+    "bytes": 67108864,
+    "monobit_z": -0.998,
+    "runs_z": -0.166,
+    "byte_chi2_z": -1.209,
+    "pair_chi2_z": -0.352,
+    "serial_corr_z": -1.054,
+    "trunc32_collisions": 145,
+    "trunc32_expected": 128.0,
+    "trunc32_z": 1.503
+   },
+   "speed_portable_c": {
+    "ns_per_block": 153.2,
+    "block_bytes": 72,
+    "mb_per_s": 470.1
+   },
+   "generic_security_log2": {
+    "output_bits": 512,
+    "capacity_bits": 1024,
+    "collision_classical": 256.0,
+    "collision_quantum_BHT": 170.66666666666666,
+    "collision_quantum_CNS_no_qram": 204.8,
+    "preimage_classical": 512,
+    "preimage_quantum_grover": 256.0
+   }
+  },
+  "BLAKE2b": {
+   "full_rounds": 12,
+   "sac": {
+    "rows": [
+     {
+      "round": 1,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.05117034912109375,
+      "best_delta_bits": [
+       511,
+       383,
+       127,
+       255
+      ]
+     },
+     {
+      "round": 2,
+      "zmax": 5.12,
+      "pass": true,
+      "never_flips": 0.0,
+      "best_delta_bits": [
+       436,
+       214,
+       375,
+       302
+      ]
+     },
+     {
+      "round": 3,
+      "zmax": 4.36,
+      "pass": true,
+      "never_flips": 0.0,
+      "best_delta_bits": [
+       164,
+       421,
+       447,
+       342
+      ]
+     }
+    ],
+    "full_diffusion_round": 2
+   },
+   "cube": {
+    "rows": [
+     {
+      "round": 1,
+      "distinguisher": {
+       "cube_dim": 1,
+       "strategy": "random",
+       "constant_bits": 15
+      }
+     },
+     {
+      "round": 2,
+      "distinguisher": null
+     },
+     {
+      "round": 3,
+      "distinguisher": null
+     }
+    ],
+    "kmax": 18,
+    "max_round_broken": 1
+   },
+   "neural": {
+    "rows": [
+     {
+      "round": 1,
+      "best": {
+       "delta_bit": 255,
+       "accuracy": 1.0,
+       "z": 447.2
+      },
+      "distinguisher": true,
+      "deltas_tried": [
+       511,
+       383,
+       127,
+       255,
+       0
+      ]
+     },
+     {
+      "round": 2,
+      "best": {
+       "delta_bit": 214,
+       "accuracy": 0.5007,
+       "z": 0.7
+      },
+      "distinguisher": false,
+      "deltas_tried": [
+       436,
+       214,
+       375,
+       302,
+       0,
+       511
+      ]
+     },
+     {
+      "round": 3,
+      "best": {
+       "delta_bit": 342,
+       "accuracy": 0.5012,
+       "z": 1.1
+      },
+      "distinguisher": false,
+      "deltas_tried": [
+       164,
+       421,
+       447,
+       342,
+       0,
+       511
+      ]
+     }
+    ],
+    "max_round_broken": 1,
+    "n_train": 1000000,
+    "epochs": 5
+   },
+   "max_round_broken_in_lab": 1,
+   "rounds_unbroken_in_lab": 11,
+   "margin_ratio": 12.0,
+   "randomness_full_rounds": {
+    "bytes": 67108864,
+    "monobit_z": 0.762,
+    "runs_z": -0.067,
+    "byte_chi2_z": -1.365,
+    "pair_chi2_z": -0.866,
+    "serial_corr_z": 1.996,
+    "trunc32_collisions": 108,
+    "trunc32_expected": 128.0,
+    "trunc32_z": -1.768
+   },
+   "speed_portable_c": {
+    "ns_per_block": 94.8,
+    "block_bytes": 128,
+    "mb_per_s": 1349.7
+   },
+   "generic_security_log2": {
+    "output_bits": 512,
+    "capacity_bits": 1024,
+    "collision_classical": 256.0,
+    "collision_quantum_BHT": 170.66666666666666,
+    "collision_quantum_CNS_no_qram": 204.8,
+    "preimage_classical": 512,
+    "preimage_quantum_grover": 256.0
+   }
+  },
+  "RAM-1024": {
+   "full_rounds": 64,
+   "sac": {
+    "rows": [
+     {
+      "round": 1,
+      "zmax": 63.25,
+      "pass": false,
+      "never_flips": 0.6082763671875,
+      "best_delta_bits": [
+       511,
+       475,
+       476,
+       477
+      ]
+     },
+     {
+      "round": 2,
+      "zmax": 4.33,
+      "pass": true,
+      "never_flips": 0.0,
+      "best_delta_bits": [
+       412,
+       430,
+       351,
+       115
+      ]
+     },
+     {
+      "round": 3,
+      "zmax": 4.24,
+      "pass": true,
+      "never_flips": 0.0,
+      "best_delta_bits": [
+       423,
+       83,
+       399,
+       301
+      ]
+     }
+    ],
+    "full_diffusion_round": 2
+   },
+   "cube": {
+    "rows": [
+     {
+      "round": 1,
+      "distinguisher": {
+       "cube_dim": 1,
+       "strategy": "random",
+       "constant_bits": 162
+      }
+     },
+     {
+      "round": 2,
+      "distinguisher": null
+     },
+     {
+      "round": 3,
+      "distinguisher": null
+     }
+    ],
+    "kmax": 18,
+    "max_round_broken": 1
+   },
+   "neural": {
+    "rows": [
+     {
+      "round": 1,
+      "best": {
+       "delta_bit": 0,
+       "accuracy": 1.0,
+       "z": 447.2
+      },
+      "distinguisher": true,
+      "deltas_tried": [
+       511,
+       475,
+       476,
+       477,
+       0
+      ]
+     },
+     {
+      "round": 2,
+      "best": {
+       "delta_bit": 115,
+       "accuracy": 0.501,
+       "z": 0.9
+      },
+      "distinguisher": false,
+      "deltas_tried": [
+       412,
+       430,
+       351,
+       115,
+       0,
+       511
+      ]
+     },
+     {
+      "round": 3,
+      "best": {
+       "delta_bit": 0,
+       "accuracy": 0.5004,
+       "z": 0.3
+      },
+      "distinguisher": false,
+      "deltas_tried": [
+       423,
+       83,
+       399,
+       301,
+       0,
+       511
+      ]
+     }
+    ],
+    "max_round_broken": 1,
+    "n_train": 1000000,
+    "epochs": 5
+   },
+   "max_round_broken_in_lab": 1,
+   "rounds_unbroken_in_lab": 63,
+   "margin_ratio": 64.0,
+   "randomness_full_rounds": {
+    "bytes": 67108864,
+    "monobit_z": 0.493,
+    "runs_z": 0.947,
+    "byte_chi2_z": -0.636,
+    "pair_chi2_z": -0.825,
+    "serial_corr_z": 0.557,
+    "trunc32_collisions": 153,
+    "trunc32_expected": 128.0,
+    "trunc32_z": 2.21
+   },
+   "speed_portable_c": {
+    "ns_per_block": 1096.7,
+    "block_bytes": 128,
+    "mb_per_s": 116.7
+   },
+   "generic_security_log2": {
+    "output_bits": 1024,
+    "capacity_bits": 1024,
+    "collision_classical": 512.0,
+    "collision_quantum_BHT": 341.3333333333333,
+    "collision_quantum_CNS_no_qram": 409.6,
+    "preimage_classical": 512.0,
+    "preimage_quantum_grover": 341.3333333333333
+   }
+  }
+ },
+ "ram1024_long_message_mb_s": {
+  "1_core": 246.5,
+  "all_cores": 1712.1,
+  "cpu_gpu": 3801.0
+ },
+ "hashlib_optimized_mb_s": {
+  "sha256": 2895.4,
+  "sha3_512": 494.0,
+  "blake2b": 1360.5
+ },
+ "elapsed_s": 370
+}

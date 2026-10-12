@@ -1,0 +1,38 @@
+20:51:10 forward SAC {'step': 1, 'zmax': 17.3, 'never_flips': 0.9378, 'full_diffusion': False, 'slowest_input_words': [0, 29, 28, 27], 'param_block_zmax': 17.3, 'confirm_zmax': 17.3}
+20:51:10 forward SAC {'step': 2, 'zmax': 17.3, 'never_flips': 0.5862, 'full_diffusion': False, 'slowest_input_words': [0, 29, 28, 27], 'param_block_zmax': 17.3, 'confirm_zmax': 17.3}
+20:51:10 forward SAC {'step': 3, 'zmax': 17.3, 'never_flips': 0.303, 'full_diffusion': False, 'slowest_input_words': [0, 29, 28, 27], 'param_block_zmax': 17.3, 'confirm_zmax': 17.3}
+20:51:11 forward SAC {'step': 4, 'zmax': 14.9, 'never_flips': 0.0, 'full_diffusion': False, 'slowest_input_words': [18, 25, 23, 17], 'param_block_zmax': 12.9, 'confirm_zmax': 14.8}
+20:51:11 forward SAC {'step': 5, 'zmax': 5.4, 'never_flips': 0.0, 'full_diffusion': True, 'slowest_input_words': [9, 5, 2, 4], 'param_block_zmax': 4.6}
+20:51:11 forward SAC {'step': 6, 'zmax': 5.3, 'never_flips': 0.0, 'full_diffusion': True, 'slowest_input_words': [20, 24, 4, 18], 'param_block_zmax': 4.5}
+20:51:11 forward SAC {'step': 7, 'zmax': 5.1, 'never_flips': 0.0, 'full_diffusion': True, 'slowest_input_words': [26, 22, 1, 20], 'param_block_zmax': 4.7}
+20:51:11 forward SAC {'step': 8, 'zmax': 5.5, 'never_flips': 0.0, 'full_diffusion': True, 'slowest_input_words': [26, 29, 3, 8], 'param_block_zmax': 5.1}
+20:51:11 forward SAC {'step': 9, 'zmax': 6.0, 'never_flips': 0.0, 'full_diffusion': True, 'slowest_input_words': [31, 29, 19, 1], 'param_block_zmax': 6.0, 'confirm_zmax': 5.1}
+20:51:49 forward linear {'step': 1, 'max_corr': 0.0419, 'zmax': 5.4, 'biased': False}
+20:51:49 forward linear {'step': 2, 'max_corr': 0.0389, 'zmax': 5.0, 'biased': False}
+20:51:49 forward linear {'step': 3, 'max_corr': 0.0387, 'zmax': 5.0, 'biased': False}
+20:51:49 forward linear {'step': 4, 'max_corr': 0.042, 'zmax': 5.4, 'biased': False}
+20:51:49 forward linear {'step': 5, 'max_corr': 0.0402, 'zmax': 5.1, 'biased': False}
+20:52:06 forward linear {'step': 6, 'max_corr': 0.0493, 'zmax': 6.3, 'biased': False, 'confirm_zmax': 5.5}
+20:52:06 forward linear {'step': 7, 'max_corr': 0.0422, 'zmax': 5.4, 'biased': False}
+20:52:06 forward linear {'step': 8, 'max_corr': 0.0416, 'zmax': 5.3, 'biased': False}
+20:52:06 forward linear {'step': 9, 'max_corr': 0.0391, 'zmax': 5.0, 'biased': False}
+20:52:06 backward SAC {'step': 1, 'zmax': 17.3, 'never_flips': 0.983, 'full_diffusion': False, 'slowest_input_words': [0, 29, 28, 27], 'param_block_zmax': 17.3, 'confirm_zmax': 17.3}
+20:52:06 backward SAC {'step': 2, 'zmax': 17.3, 'never_flips': 0.8938, 'full_diffusion': False, 'slowest_input_words': [0, 29, 28, 27], 'param_block_zmax': 17.3, 'confirm_zmax': 17.3}
+20:52:07 backward SAC {'step': 3, 'zmax': 17.3, 'never_flips': 0.7686, 'full_diffusion': False, 'slowest_input_words': [0, 29, 28, 27], 'param_block_zmax': 17.3, 'confirm_zmax': 17.3}
+20:52:07 backward SAC {'step': 4, 'zmax': 17.3, 'never_flips': 0.2577, 'full_diffusion': False, 'slowest_input_words': [0, 29, 28, 27], 'param_block_zmax': 17.3, 'confirm_zmax': 17.3}
+20:52:07 backward SAC {'step': 5, 'zmax': 17.3, 'never_flips': 0.0018, 'full_diffusion': False, 'slowest_input_words': [0, 29, 28, 27], 'param_block_zmax': 17.3, 'confirm_zmax': 17.3}
+20:52:08 backward SAC {'step': 6, 'zmax': 17.3, 'never_flips': 0.0009, 'full_diffusion': False, 'slowest_input_words': [15, 14, 8, 9], 'param_block_zmax': 16.9, 'confirm_zmax': 17.3}
+20:52:08 backward SAC {'step': 7, 'zmax': 5.1, 'never_flips': 0.0, 'full_diffusion': True, 'slowest_input_words': [1, 20, 3, 7], 'param_block_zmax': 4.8}
+20:52:08 backward SAC {'step': 8, 'zmax': 5.1, 'never_flips': 0.0, 'full_diffusion': True, 'slowest_input_words': [0, 4, 28, 24], 'param_block_zmax': 5.0}
+20:52:08 backward SAC {'step': 9, 'zmax': 5.3, 'never_flips': 0.0, 'full_diffusion': True, 'slowest_input_words': [4, 22, 28, 3], 'param_block_zmax': 4.8}
+20:52:46 backward linear {'step': 1, 'max_corr': 0.0419, 'zmax': 5.4, 'biased': False}
+20:52:46 backward linear {'step': 2, 'max_corr': 0.0402, 'zmax': 5.1, 'biased': False}
+20:52:46 backward linear {'step': 3, 'max_corr': 0.0435, 'zmax': 5.6, 'biased': False}
+20:52:46 backward linear {'step': 4, 'max_corr': 0.0413, 'zmax': 5.3, 'biased': False}
+20:52:46 backward linear {'step': 5, 'max_corr': 0.0411, 'zmax': 5.3, 'biased': False}
+20:52:46 backward linear {'step': 6, 'max_corr': 0.04, 'zmax': 5.1, 'biased': False}
+20:52:46 backward linear {'step': 7, 'max_corr': 0.04, 'zmax': 5.1, 'biased': False}
+20:52:46 backward linear {'step': 8, 'max_corr': 0.043, 'zmax': 5.5, 'biased': False}
+20:52:46 backward linear {'step': 9, 'max_corr': 0.0411, 'zmax': 5.3, 'biased': False}
+20:52:47 colshift reach 1 [{'step': 1, 'dir': 1, 'max_abs_z': 33.6}, {'step': 1, 'dir': -1, 'max_abs_z': 1.7}, {'step': 2, 'dir': 1, 'max_abs_z': 1.5}, {'step': 2, 'dir': -1, 'max_abs_z': 3.8}, {'step': 3, 'dir': 1, 'max_abs_z': 2.0}, {'step': 3, 'dir': -1, 'max_abs_z': 1.3}]
+20:52:47 inside-out reach: 4 fwd + 6 bwd steps = 3.33 rounds

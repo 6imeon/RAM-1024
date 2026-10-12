@@ -1,0 +1,73 @@
+{
+ "blake2b_half_rounds": [
+  {
+   "sac_zmax": 44.7,
+   "neural_z": 447.2,
+   "multipair_z": 316.2,
+   "cube_dim": 1,
+   "broken": true,
+   "half_rounds": 2,
+   "rounds": 1.0
+  },
+  {
+   "sac_zmax": 28.7,
+   "neural_z": 283.1,
+   "multipair_z": 282.9,
+   "cube_dim": null,
+   "broken": true,
+   "half_rounds": 3,
+   "rounds": 1.5
+  },
+  {
+   "sac_zmax": 4.8,
+   "neural_z": 0.1,
+   "multipair_z": -0.9,
+   "cube_dim": null,
+   "broken": false,
+   "half_rounds": 4,
+   "rounds": 2.0
+  },
+  {
+   "sac_zmax": 4.7,
+   "neural_z": -0.8,
+   "multipair_z": 0.8,
+   "cube_dim": null,
+   "broken": false,
+   "half_rounds": 5,
+   "rounds": 2.5
+  },
+  {
+   "sac_zmax": 5.2,
+   "neural_z": -0.7,
+   "multipair_z": 1.3,
+   "cube_dim": null,
+   "broken": false,
+   "half_rounds": 6,
+   "rounds": 3.0
+  }
+ ],
+ "lab_reach_rounds": {
+  "SHA-256": 22,
+  "SHA3-512": 4,
+  "BLAKE2b": 1.5,
+  "RAM-1024": 1.333
+ },
+ "published_reach_rounds": {
+  "SHA-256": 39,
+  "SHA3-512": 6,
+  "BLAKE2b": 8.5
+ },
+ "expert_multiplier": {
+  "SHA-256": 1.77,
+  "SHA3-512": 1.5,
+  "BLAKE2b": 5.67
+ },
+ "worst_multiplier_from": "BLAKE2b",
+ "ram_estimated_expert_reach": 7.56,
+ "ram_margin": 8.47,
+ "standard_margins": {
+  "SHA-256": 1.64,
+  "SHA3-512": 4.0,
+  "BLAKE2b": 1.41
+ }
+}

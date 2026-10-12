@@ -1,0 +1,5 @@
+{"offset": 11, "restarts": 4, "candidates": 560, "max_quartets": 16384,
+ "switch": [{"middle_steps": 1, "best_weight": 0, "pairs_returning": 269858, "pairs_free": 246604}, {"middle_steps": 2, "best_weight": 0, "pairs_returning": 284774, "pairs_free": 179362}, {"middle_steps": 3, "best_weight": 0, "pairs_returning": 254311, "pairs_free": 32848}, {"middle_steps": 4, "best_weight": 0, "pairs_returning": 212217, "pairs_free": 4293}],
+ "reach_le_1024": {"steps": 12, "weight": 697.9, "top": 4, "switch": 4, "bottom": 4, "offset": 11, "beta": 42, "gamma": 87},
+ "reach_le_2048": {"steps": 14, "weight": 1767.9, "top": 6, "switch": 4, "bottom": 4, "offset": 11, "beta": 42, "gamma": 87}
+}

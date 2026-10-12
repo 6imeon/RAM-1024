@@ -1,0 +1,16 @@
+debconf: delaying package configuration, since apt-utils is not installed
+cc -O2 -Wall -Wextra -std=c99 -fPIC -c -o build/ram1024.o csrc/ram1024.c
+cc -shared -o build/libram.so build/ram1024.o  -lpthread
+cc -O2 -Wall -Wextra -std=c99 -fPIC -o build/ram_test csrc/ram_test.c build/ram1024.o -lpthread
+cc -O2 -Wall -Wextra -std=c99 -fPIC -o build/ramsum csrc/ramsum.c build/ram1024.o -lpthread
+cc -O2 -Wall -Wextra -std=c99 -fPIC -DRAM_RESEARCH -o build/ram_test_research csrc/ram_test.c csrc/ram1024.c -lpthread
+./build/ram_test tests/kat.txt tests/kat_pwhash.txt
+platform: little-endian, 32-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+./build/ram_test_research tests/kat.txt tests/kat_pwhash.txt
+platform: little-endian, 32-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (0 research-only, correctly refused), 0 failures
+python: C library loaded, 88 vectors (57 also via pure Python), 0 mismatches
+7ab55bde34303ba4a41cef0bb4dcd46b3fc94498c1cd157212e306280e722c3510e06f99dd2dfa4e792a683dabbd244d1c7a260a5cb93784bd9fd8bfa74b7fffef2447b4096b94e6ce4a4f8499be6880ed05b9528e5e533ea0518f117ec79e3c0fa6102f666e7d581a2ea66d32e2dcb1f62f3bf56cb4490c09f5969a345f8866  tests/kat.txt

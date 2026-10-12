@@ -1,0 +1,282 @@
+{
+ "timeout_s": 797,
+ "solver": "CaDiCaL",
+ "bounds": [
+  {
+   "start": 0,
+   "steps": 1,
+   "weight_ge": 0,
+   "trail_found": 0,
+   "exact": true,
+   "empirical_p": 1.0
+  },
+  {
+   "start": 1,
+   "steps": 1,
+   "weight_ge": 0,
+   "trail_found": 0,
+   "exact": true,
+   "empirical_p": 1.0
+  },
+  {
+   "start": 2,
+   "steps": 1,
+   "weight_ge": 0,
+   "trail_found": 0,
+   "exact": true,
+   "empirical_p": 1.0
+  },
+  {
+   "start": 3,
+   "steps": 1,
+   "weight_ge": 0,
+   "trail_found": 0,
+   "exact": true,
+   "empirical_p": 1.0
+  },
+  {
+   "start": 4,
+   "steps": 1,
+   "weight_ge": 0,
+   "trail_found": 0,
+   "exact": true,
+   "empirical_p": 1.0
+  },
+  {
+   "start": 5,
+   "steps": 1,
+   "weight_ge": 0,
+   "trail_found": 0,
+   "exact": true,
+   "empirical_p": 1.0
+  },
+  {
+   "start": 6,
+   "steps": 1,
+   "weight_ge": 0,
+   "trail_found": 0,
+   "exact": true,
+   "empirical_p": 1.0
+  },
+  {
+   "start": 7,
+   "steps": 1,
+   "weight_ge": 0,
+   "trail_found": 0,
+   "exact": true,
+   "empirical_p": 1.0
+  },
+  {
+   "start": 8,
+   "steps": 1,
+   "weight_ge": 0,
+   "trail_found": 0,
+   "exact": true,
+   "empirical_p": 1.0
+  },
+  {
+   "start": 9,
+   "steps": 1,
+   "weight_ge": 0,
+   "trail_found": 0,
+   "exact": true,
+   "empirical_p": 1.0
+  },
+  {
+   "start": 10,
+   "steps": 1,
+   "weight_ge": 0,
+   "trail_found": 0,
+   "exact": true,
+   "empirical_p": 1.0
+  },
+  {
+   "start": 11,
+   "steps": 1,
+   "weight_ge": 0,
+   "trail_found": 0,
+   "exact": true,
+   "empirical_p": 1.0
+  },
+  {
+   "start": 0,
+   "steps": 2,
+   "weight_ge": 5,
+   "trail_found": 5,
+   "exact": true,
+   "empirical_p": 0.032470703125
+  },
+  {
+   "start": 1,
+   "steps": 2,
+   "weight_ge": 0,
+   "trail_found": 0,
+   "exact": true,
+   "empirical_p": 1.0
+  },
+  {
+   "start": 2,
+   "steps": 2,
+   "weight_ge": 3,
+   "trail_found": 3,
+   "exact": true,
+   "empirical_p": 0.125
+  },
+  {
+   "start": 3,
+   "steps": 2,
+   "weight_ge": 5,
+   "trail_found": 5,
+   "exact": true,
+   "empirical_p": 0.035400390625
+  },
+  {
+   "start": 4,
+   "steps": 2,
+   "weight_ge": 1,
+   "trail_found": 1,
+   "exact": true,
+   "empirical_p": 0.491943359375
+  },
+  {
+   "start": 5,
+   "steps": 2,
+   "weight_ge": 4,
+   "trail_found": 4,
+   "exact": true,
+   "empirical_p": 0.06640625
+  },
+  {
+   "start": 6,
+   "steps": 2,
+   "weight_ge": 5,
+   "trail_found": 5,
+   "exact": true,
+   "empirical_p": 0.025390625
+  },
+  {
+   "start": 7,
+   "steps": 2,
+   "weight_ge": 1,
+   "trail_found": 1,
+   "exact": true,
+   "empirical_p": 0.4970703125
+  },
+  {
+   "start": 8,
+   "steps": 2,
+   "weight_ge": 2,
+   "trail_found": 2,
+   "exact": true,
+   "empirical_p": 0.260009765625
+  },
+  {
+   "start": 9,
+   "steps": 2,
+   "weight_ge": 5,
+   "trail_found": 5,
+   "exact": true,
+   "empirical_p": 0.03076171875
+  },
+  {
+   "start": 10,
+   "steps": 2,
+   "weight_ge": 1,
+   "trail_found": 1,
+   "exact": true,
+   "empirical_p": 0.518798828125
+  },
+  {
+   "start": 11,
+   "steps": 2,
+   "weight_ge": 2,
+   "trail_found": 2,
+   "exact": true,
+   "empirical_p": 0.24365234375
+  },
+  {
+   "start": 0,
+   "steps": 3,
+   "weight_ge": 9,
+   "trail_found": 11,
+   "exact": false
+  },
+  {
+   "start": 1,
+   "steps": 3,
+   "weight_ge": 4,
+   "trail_found": 4,
+   "exact": true,
+   "empirical_p": 0.06201171875
+  },
+  {
+   "start": 2,
+   "steps": 3,
+   "weight_ge": 7
+  },
+  {
+   "start": 3,
+   "steps": 3,
+   "weight_ge": 9,
+   "trail_found": 10,
+   "exact": false,
+   "empirical_p": 0.000732421875
+  },
+  {
+   "start": 4,
+   "steps": 3,
+   "weight_ge": 5,
+   "trail_found": 5,
+   "exact": true,
+   "empirical_p": 0.027099609375
+  },
+  {
+   "start": 5,
+   "steps": 3,
+   "weight_ge": 8,
+   "trail_found": 11,
+   "exact": false
+  },
+  {
+   "start": 6,
+   "steps": 3,
+   "weight_ge": 9,
+   "trail_found": 10,
+   "exact": false,
+   "empirical_p": 0.00048828125
+  },
+  {
+   "start": 7,
+   "steps": 3,
+   "weight_ge": 3,
+   "trail_found": 3,
+   "exact": true,
+   "empirical_p": 0.121826171875
+  },
+  {
+   "start": 8,
+   "steps": 3,
+   "weight_ge": 6
+  },
+  {
+   "start": 9,
+   "steps": 3,
+   "weight_ge": 5
+  },
+  {
+   "start": 10,
+   "steps": 3,
+   "weight_ge": 1
+  },
+  {
+   "start": 11,
+   "steps": 3,
+   "weight_ge": 2
+  }
+ ],
+ "min_by_steps": {
+  "1": 0,
+  "2": 0,
+  "3": 1
+ }
+}

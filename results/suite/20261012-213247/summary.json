@@ -1,0 +1,24 @@
+{
+ "run": "20261012-213247",
+ "tier": "full",
+ "budget_s": 3360,
+ "wall_s": 3257.6,
+ "counts": {
+  "PASS": 1,
+  "FAIL": 0,
+  "TIMEOUT": 0,
+  "SKIP": 0,
+  "PLAN": 0
+ },
+ "jobs": [
+  {
+   "id": "trail-proof-6",
+   "tier": "proof",
+   "pool": "docker",
+   "status": "PASS",
+   "seconds": 3257.6,
+   "est": 1800,
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{'target': 'BLAKE2b half-rounds', 'seed': 101, 'z_at_3': 284.3, 'z_at_4': 0.6, 'sac_z_at_4': 4.8}
+{'target': 'BLAKE2b half-rounds', 'seed': 202, 'z_at_3': 282.5, 'z_at_4': -1.2, 'sac_z_at_4': 4.8}
+{'target': 'BLAKE2b half-rounds', 'seed': 303, 'z_at_3': 281.2, 'z_at_4': -1.6, 'sac_z_at_4': 4.8}
+{'target': 'RAM-1024 steps', 'seed': 101, 'z_at_4': 270.6, 'z_at_5': 0.6, 'sac_z_at_5': 4.7}
+{'target': 'RAM-1024 steps', 'seed': 202, 'z_at_4': 269.1, 'z_at_5': -0.2, 'sac_z_at_5': 4.7}
+{'target': 'RAM-1024 steps', 'seed': 303, 'z_at_4': 271.5, 'z_at_5': 0.9, 'sac_z_at_5': 4.7}
+{'model': 'Published reach (standards); measured multiplier × lab reach (RAM)', 'SHA-256': 1.64, 'SHA3-512': 4.0, 'BLAKE2b': 1.41, 'RAM-1024': 8.47, 'ram_leads': True}
+{'model': 'Worst measured multiplier × lab reach, for every design', 'SHA-256': 0.0, 'SHA3-512': 1.06, 'BLAKE2b': 1.41, 'RAM-1024': 8.47, 'ram_leads': True}
+{'model': 'Coarse BLAKE2b multiplier (8.5×) × lab reach, for every design', 'SHA-256': 0.0, 'SHA3-512': 0.0, 'BLAKE2b': 0.0, 'RAM-1024': 5.65, 'ram_leads': True}
+{'model': 'Stress: worst multiplier × (lab reach + 1 round), for every design', 'SHA-256': 0.0, 'SHA3-512': 0.0, 'BLAKE2b': 0.0, 'RAM-1024': 4.84, 'ram_leads': True}
+stable: True  RAM leads every model: True

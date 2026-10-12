@@ -1,0 +1,98 @@
+[
+ {
+  "start": 0,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "seconds": 3256.2,
+  "matsui": true
+ },
+ {
+  "start": 1,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "seconds": 3256.8,
+  "matsui": true
+ },
+ {
+  "start": 2,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "seconds": 3255.8,
+  "matsui": true
+ },
+ {
+  "start": 3,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "seconds": 3255.2,
+  "matsui": true
+ },
+ {
+  "start": 4,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "seconds": 3256.3,
+  "matsui": true
+ },
+ {
+  "start": 5,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "seconds": 3255.6,
+  "matsui": true
+ },
+ {
+  "start": 6,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "seconds": 3256.2,
+  "matsui": true
+ },
+ {
+  "start": 7,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "seconds": 3254.6,
+  "matsui": true
+ },
+ {
+  "start": 8,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "seconds": 3255.0,
+  "matsui": true
+ },
+ {
+  "start": 9,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "seconds": 3255.0,
+  "matsui": true
+ },
+ {
+  "start": 10,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "seconds": 3253.3,
+  "matsui": true
+ },
+ {
+  "start": 11,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "seconds": 3254.3,
+  "matsui": true
+ }
+]

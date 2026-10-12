@@ -1,0 +1,453 @@
+{
+ "sac_samples": 300,
+ "linear_samples": 16384,
+ "sac_forward": [
+  {
+   "step": 1,
+   "zmax": 17.3,
+   "never_flips": 0.9384,
+   "full_diffusion": false,
+   "slowest_input_words": [
+    0,
+    29,
+    28,
+    27
+   ],
+   "param_block_zmax": 17.3
+  },
+  {
+   "step": 2,
+   "zmax": 17.3,
+   "never_flips": 0.5872,
+   "full_diffusion": false,
+   "slowest_input_words": [
+    0,
+    29,
+    28,
+    27
+   ],
+   "param_block_zmax": 17.3
+  },
+  {
+   "step": 3,
+   "zmax": 17.3,
+   "never_flips": 0.3095,
+   "full_diffusion": false,
+   "slowest_input_words": [
+    0,
+    29,
+    28,
+    27
+   ],
+   "param_block_zmax": 17.3
+  },
+  {
+   "step": 4,
+   "zmax": 14.7,
+   "never_flips": 0.0,
+   "full_diffusion": false,
+   "slowest_input_words": [
+    25,
+    19,
+    26,
+    28
+   ],
+   "param_block_zmax": 14.3
+  },
+  {
+   "step": 5,
+   "zmax": 5.3,
+   "never_flips": 0.0,
+   "full_diffusion": true,
+   "slowest_input_words": [
+    20,
+    8,
+    14,
+    28
+   ],
+   "param_block_zmax": 4.8
+  },
+  {
+   "step": 6,
+   "zmax": 5.3,
+   "never_flips": 0.0,
+   "full_diffusion": true,
+   "slowest_input_words": [
+    23,
+    27,
+    5,
+    8
+   ],
+   "param_block_zmax": 4.6
+  },
+  {
+   "step": 7,
+   "zmax": 5.1,
+   "never_flips": 0.0,
+   "full_diffusion": true,
+   "slowest_input_words": [
+    0,
+    27,
+    4,
+    21
+   ],
+   "param_block_zmax": 5.0
+  },
+  {
+   "step": 8,
+   "zmax": 5.3,
+   "never_flips": 0.0,
+   "full_diffusion": true,
+   "slowest_input_words": [
+    1,
+    25,
+    8,
+    2
+   ],
+   "param_block_zmax": 4.7
+  },
+  {
+   "step": 9,
+   "zmax": 5.4,
+   "never_flips": 0.0,
+   "full_diffusion": true,
+   "slowest_input_words": [
+    18,
+    17,
+    5,
+    9
+   ],
+   "param_block_zmax": 4.5
+  }
+ ],
+ "forward_reach_steps": 4,
+ "linear_forward": [
+  {
+   "step": 1,
+   "max_corr": 0.0411,
+   "zmax": 5.3,
+   "biased": false
+  },
+  {
+   "step": 2,
+   "max_corr": 0.0388,
+   "zmax": 5.0,
+   "biased": false
+  },
+  {
+   "step": 3,
+   "max_corr": 0.0421,
+   "zmax": 5.4,
+   "biased": false
+  },
+  {
+   "step": 4,
+   "max_corr": 0.0402,
+   "zmax": 5.1,
+   "biased": false
+  },
+  {
+   "step": 5,
+   "max_corr": 0.0436,
+   "zmax": 5.6,
+   "biased": false
+  },
+  {
+   "step": 6,
+   "max_corr": 0.0419,
+   "zmax": 5.4,
+   "biased": false
+  },
+  {
+   "step": 7,
+   "max_corr": 0.0388,
+   "zmax": 5.0,
+   "biased": false
+  },
+  {
+   "step": 8,
+   "max_corr": 0.041,
+   "zmax": 5.2,
+   "biased": false
+  },
+  {
+   "step": 9,
+   "max_corr": 0.0397,
+   "zmax": 5.1,
+   "biased": false
+  }
+ ],
+ "forward_linear_reach_steps": 0,
+ "sac_backward": [
+  {
+   "step": 1,
+   "zmax": 17.3,
+   "never_flips": 0.9829,
+   "full_diffusion": false,
+   "slowest_input_words": [
+    0,
+    29,
+    28,
+    27
+   ],
+   "param_block_zmax": 17.3
+  },
+  {
+   "step": 2,
+   "zmax": 17.3,
+   "never_flips": 0.8958,
+   "full_diffusion": false,
+   "slowest_input_words": [
+    0,
+    29,
+    28,
+    27
+   ],
+   "param_block_zmax": 17.3
+  },
+  {
+   "step": 3,
+   "zmax": 17.3,
+   "never_flips": 0.789,
+   "full_diffusion": false,
+   "slowest_input_words": [
+    0,
+    29,
+    28,
+    27
+   ],
+   "param_block_zmax": 17.3
+  },
+  {
+   "step": 4,
+   "zmax": 17.3,
+   "never_flips": 0.3114,
+   "full_diffusion": false,
+   "slowest_input_words": [
+    0,
+    29,
+    28,
+    27
+   ],
+   "param_block_zmax": 17.3
+  },
+  {
+   "step": 5,
+   "zmax": 17.3,
+   "never_flips": 0.0077,
+   "full_diffusion": false,
+   "slowest_input_words": [
+    0,
+    29,
+    28,
+    27
+   ],
+   "param_block_zmax": 17.3
+  },
+  {
+   "step": 6,
+   "zmax": 17.3,
+   "never_flips": 0.0026,
+   "full_diffusion": false,
+   "slowest_input_words": [
+    0,
+    29,
+    28,
+    27
+   ],
+   "param_block_zmax": 17.3
+  },
+  {
+   "step": 7,
+   "zmax": 11.3,
+   "never_flips": 0.0,
+   "full_diffusion": false,
+   "slowest_input_words": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "param_block_zmax": 9.5
+  },
+  {
+   "step": 8,
+   "zmax": 5.0,
+   "never_flips": 0.0,
+   "full_diffusion": true,
+   "slowest_input_words": [
+    1,
+    28,
+    18,
+    31
+   ],
+   "param_block_zmax": 5.0
+  },
+  {
+   "step": 9,
+   "zmax": 5.4,
+   "never_flips": 0.0,
+   "full_diffusion": true,
+   "slowest_input_words": [
+    29,
+    3,
+    22,
+    16
+   ],
+   "param_block_zmax": 5.4
+  }
+ ],
+ "backward_reach_steps": 7,
+ "linear_backward": [
+  {
+   "step": 1,
+   "max_corr": 0.0397,
+   "zmax": 5.1,
+   "biased": false
+  },
+  {
+   "step": 2,
+   "max_corr": 0.0398,
+   "zmax": 5.1,
+   "biased": false
+  },
+  {
+   "step": 3,
+   "max_corr": 0.0397,
+   "zmax": 5.1,
+   "biased": false
+  },
+  {
+   "step": 4,
+   "max_corr": 0.0413,
+   "zmax": 5.3,
+   "biased": false
+  },
+  {
+   "step": 5,
+   "max_corr": 0.042,
+   "zmax": 5.4,
+   "biased": false
+  },
+  {
+   "step": 6,
+   "max_corr": 0.0404,
+   "zmax": 5.2,
+   "biased": false
+  },
+  {
+   "step": 7,
+   "max_corr": 0.0421,
+   "zmax": 5.4,
+   "biased": false
+  },
+  {
+   "step": 8,
+   "max_corr": 0.0389,
+   "zmax": 5.0,
+   "biased": false
+  },
+  {
+   "step": 9,
+   "max_corr": 0.0428,
+   "zmax": 5.5,
+   "biased": false
+  }
+ ],
+ "backward_linear_reach_steps": 0,
+ "colshift": [
+  {
+   "step": 1,
+   "dir": 1,
+   "max_abs_z": 29.5
+  },
+  {
+   "step": 1,
+   "dir": -1,
+   "max_abs_z": 6858.9
+  },
+  {
+   "step": 2,
+   "dir": 1,
+   "max_abs_z": 3.6
+  },
+  {
+   "step": 2,
+   "dir": -1,
+   "max_abs_z": 6858.9
+  },
+  {
+   "step": 3,
+   "dir": 1,
+   "max_abs_z": 4.6
+  },
+  {
+   "step": 3,
+   "dir": -1,
+   "max_abs_z": 6858.9
+  },
+  {
+   "step": 4,
+   "dir": 1,
+   "max_abs_z": 1.8
+  },
+  {
+   "step": 4,
+   "dir": -1,
+   "max_abs_z": 16.7
+  },
+  {
+   "step": 5,
+   "dir": 1,
+   "max_abs_z": 1.5
+  },
+  {
+   "step": 5,
+   "dir": -1,
+   "max_abs_z": 16.3
+  },
+  {
+   "step": 6,
+   "dir": 1,
+   "max_abs_z": 0.8
+  },
+  {
+   "step": 6,
+   "dir": -1,
+   "max_abs_z": 16.2
+  },
+  {
+   "step": 7,
+   "dir": 1,
+   "max_abs_z": 2.4
+  },
+  {
+   "step": 7,
+   "dir": -1,
+   "max_abs_z": 1.1
+  },
+  {
+   "step": 8,
+   "dir": 1,
+   "max_abs_z": 1.8
+  },
+  {
+   "step": 8,
+   "dir": -1,
+   "max_abs_z": 1.6
+  },
+  {
+   "step": 9,
+   "dir": 1,
+   "max_abs_z": 3.7
+  },
+  {
+   "step": 9,
+   "dir": -1,
+   "max_abs_z": 2.3
+  }
+ ],
+ "colshift_reach_steps": 6,
+ "inside_out_reach_steps": 11,
+ "inside_out_reach_rounds": 3.67
+}

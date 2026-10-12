@@ -1,0 +1,230 @@
+[
+ {
+  "start": 0,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat"
+ },
+ {
+  "start": 1,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat"
+ },
+ {
+  "start": 2,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat"
+ },
+ {
+  "start": 3,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat"
+ },
+ {
+  "start": 4,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat"
+ },
+ {
+  "start": 5,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat"
+ },
+ {
+  "start": 6,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat"
+ },
+ {
+  "start": 7,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat"
+ },
+ {
+  "start": 8,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat"
+ },
+ {
+  "start": 9,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat"
+ },
+ {
+  "start": 10,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat"
+ },
+ {
+  "start": 11,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat"
+ },
+ {
+  "start": 0,
+  "steps": 5,
+  "W": 11,
+  "result": "unsat"
+ },
+ {
+  "start": 1,
+  "steps": 5,
+  "W": 11,
+  "result": "unsat"
+ },
+ {
+  "start": 2,
+  "steps": 5,
+  "W": 11,
+  "result": "unsat"
+ },
+ {
+  "start": 3,
+  "steps": 5,
+  "W": 11,
+  "result": "unsat"
+ },
+ {
+  "start": 4,
+  "steps": 5,
+  "W": 11,
+  "result": "unsat"
+ },
+ {
+  "start": 5,
+  "steps": 5,
+  "W": 11,
+  "result": "unsat"
+ },
+ {
+  "start": 6,
+  "steps": 5,
+  "W": 11,
+  "result": "unsat"
+ },
+ {
+  "start": 7,
+  "steps": 5,
+  "W": 11,
+  "result": "unsat"
+ },
+ {
+  "start": 8,
+  "steps": 5,
+  "W": 11,
+  "result": "unsat"
+ },
+ {
+  "start": 9,
+  "steps": 5,
+  "W": 11,
+  "result": "unsat"
+ },
+ {
+  "start": 10,
+  "steps": 5,
+  "W": 11,
+  "result": "unsat"
+ },
+ {
+  "start": 11,
+  "steps": 5,
+  "W": 11,
+  "result": "unsat"
+ },
+ {
+  "start": 0,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "note": "stopped by hand after ~3.3 h wall time (CaDiCaL -t 10800 CPU s, 12 solvers sharing cores); no trail found, no proof"
+ },
+ {
+  "start": 1,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "note": "stopped by hand after ~3.3 h wall time (CaDiCaL -t 10800 CPU s, 12 solvers sharing cores); no trail found, no proof"
+ },
+ {
+  "start": 2,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "note": "stopped by hand after ~3.3 h wall time (CaDiCaL -t 10800 CPU s, 12 solvers sharing cores); no trail found, no proof"
+ },
+ {
+  "start": 3,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "note": "stopped by hand after ~3.3 h wall time (CaDiCaL -t 10800 CPU s, 12 solvers sharing cores); no trail found, no proof"
+ },
+ {
+  "start": 4,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "note": "stopped by hand after ~3.3 h wall time (CaDiCaL -t 10800 CPU s, 12 solvers sharing cores); no trail found, no proof"
+ },
+ {
+  "start": 5,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "note": "stopped by hand after ~3.3 h wall time (CaDiCaL -t 10800 CPU s, 12 solvers sharing cores); no trail found, no proof"
+ },
+ {
+  "start": 6,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "note": "stopped by hand after ~3.3 h wall time (CaDiCaL -t 10800 CPU s, 12 solvers sharing cores); no trail found, no proof"
+ },
+ {
+  "start": 7,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "note": "stopped by hand after ~3.3 h wall time (CaDiCaL -t 10800 CPU s, 12 solvers sharing cores); no trail found, no proof"
+ },
+ {
+  "start": 8,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "note": "stopped by hand after ~3.3 h wall time (CaDiCaL -t 10800 CPU s, 12 solvers sharing cores); no trail found, no proof"
+ },
+ {
+  "start": 9,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "note": "stopped by hand after ~3.3 h wall time (CaDiCaL -t 10800 CPU s, 12 solvers sharing cores); no trail found, no proof"
+ },
+ {
+  "start": 10,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "note": "stopped by hand after ~3.3 h wall time (CaDiCaL -t 10800 CPU s, 12 solvers sharing cores); no trail found, no proof"
+ },
+ {
+  "start": 11,
+  "steps": 6,
+  "W": 34,
+  "result": "unknown",
+  "note": "stopped by hand after ~3.3 h wall time (CaDiCaL -t 10800 CPU s, 12 solvers sharing cores); no trail found, no proof"
+ }
+]

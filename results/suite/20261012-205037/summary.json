@@ -1,0 +1,123 @@
+{
+ "run": "20261012-205037",
+ "tier": "standard",
+ "budget_s": 1200,
+ "wall_s": 1151.2,
+ "counts": {
+  "PASS": 12,
+  "FAIL": 0,
+  "TIMEOUT": 0,
+  "SKIP": 0,
+  "PLAN": 0
+ },
+ "jobs": [
+  {
+   "id": "build",
+   "tier": "quick",
+   "pool": "local",
+   "status": "PASS",
+   "seconds": 0.1,
+   "est": 15,
+   "note": ""
+  },
+  {
+   "id": "c-conformance",
+   "tier": "quick",
+   "pool": "local",
+   "status": "PASS",
+   "seconds": 0.3,
+   "est": 5,
+   "note": ""
+  },
+  {
+   "id": "python-suite",
+   "tier": "quick",
+   "pool": "local",
+   "status": "PASS",
+   "seconds": 5.7,
+   "est": 10,
+   "note": ""
+  },
+  {
+   "id": "c-vs-python-xcheck",
+   "tier": "quick",
+   "pool": "local",
+   "status": "PASS",
+   "seconds": 0.7,
+   "est": 5,
+   "note": ""
+  },
+  {
+   "id": "kat-reference",
+   "tier": "quick",
+   "pool": "local",
+   "status": "PASS",
+   "seconds": 19.4,
+   "est": 20,
+   "note": ""
+  },
+  {
+   "id": "xplat-quick",
+   "tier": "quick",
+   "pool": "docker",
+   "status": "PASS",
+   "seconds": 66.4,
+   "est": 120,
+   "note": ""
+  },
+  {
+   "id": "native-sanitizers",
+   "tier": "standard",
+   "pool": "local",
+   "status": "PASS",
+   "seconds": 5.2,
+   "est": 40,
+   "note": ""
+  },
+  {
+   "id": "perm-attack",
+   "tier": "standard",
+   "pool": "local",
+   "status": "PASS",
+   "seconds": 98.2,
+   "est": 90,
+   "note": ""
+  },
+  {
+   "id": "algebraic",
+   "tier": "standard",
+   "pool": "local",
+   "status": "PASS",
+   "seconds": 10.3,
+   "est": 15,
+   "note": ""
+  },
+  {
+   "id": "trail-search",
+   "tier": "standard",
+   "pool": "local",
+   "status": "PASS",
+   "seconds": 305.7,
+   "est": 300,
+   "note": ""
+  },
+  {
+   "id": "sat-attack",
+   "tier": "standard",
+   "pool": "docker",
+   "status": "PASS",
+   "seconds": 245.8,
+   "est": 400,
+   "note": ""
+  },
+  {
+   "id": "trail-bounds-3",
+   "tier": "standard",
+   "pool": "docker",
+   "status": "PASS",
+   "seconds": 839.0,
+   "est": 300,
+   "note": ""
+  }
+ ]
+}

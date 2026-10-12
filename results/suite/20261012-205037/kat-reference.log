@@ -1,0 +1,3 @@
+python3 tools/gen_kat.py > build/kat.ref & python3 tools/gen_kat.py --pw > build/kat_pwhash.ref; wait
+cmp build/kat.ref tests/kat.txt && cmp build/kat_pwhash.ref tests/kat_pwhash.txt
+reference reproduces both KAT files

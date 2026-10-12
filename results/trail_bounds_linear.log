@@ -1,0 +1,39 @@
+{"start": 0, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "measured_corr": 1.0, "predicted_corr": 1.0}
+{"start": 1, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "measured_corr": 1.0, "predicted_corr": 1.0}
+{"start": 2, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "measured_corr": 1.0, "predicted_corr": 1.0}
+{"start": 3, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "measured_corr": 1.0, "predicted_corr": 1.0}
+{"start": 4, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "measured_corr": 1.0, "predicted_corr": 1.0}
+{"start": 5, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "measured_corr": 1.0, "predicted_corr": 1.0}
+{"start": 6, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "measured_corr": 1.0, "predicted_corr": 1.0}
+{"start": 7, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "measured_corr": 1.0, "predicted_corr": 1.0}
+{"start": 8, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "measured_corr": 1.0, "predicted_corr": 1.0}
+{"start": 9, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "measured_corr": 1.0, "predicted_corr": 1.0}
+{"start": 10, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "measured_corr": 1.0, "predicted_corr": 1.0}
+{"start": 11, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "measured_corr": 1.0, "predicted_corr": 1.0}
+linear, steps 1: every trail has weight >= 0 (proven, all 12 offsets)
+{"start": 0, "steps": 2, "weight_ge": 2, "trail_found": 2, "exact": true, "measured_corr": 0.2381591796875, "predicted_corr": 0.25}
+{"start": 1, "steps": 2, "weight_ge": 1, "trail_found": 1, "exact": true, "measured_corr": 0.4998779296875, "predicted_corr": 0.5}
+{"start": 2, "steps": 2, "weight_ge": 0, "trail_found": 0, "exact": true, "measured_corr": 1.0, "predicted_corr": 1.0}
+{"start": 3, "steps": 2, "weight_ge": 2, "trail_found": 2, "exact": true, "measured_corr": 0.256103515625, "predicted_corr": 0.25}
+{"start": 4, "steps": 2, "weight_ge": 2, "trail_found": 2, "exact": true, "measured_corr": 0.24755859375, "predicted_corr": 0.25}
+{"start": 5, "steps": 2, "weight_ge": 0, "trail_found": 0, "exact": true, "measured_corr": 1.0, "predicted_corr": 1.0}
+{"start": 6, "steps": 2, "weight_ge": 2, "trail_found": 2, "exact": true, "measured_corr": 0.24169921875, "predicted_corr": 0.25}
+{"start": 7, "steps": 2, "weight_ge": 2, "trail_found": 2, "exact": true, "measured_corr": 0.2586669921875, "predicted_corr": 0.25}
+{"start": 8, "steps": 2, "weight_ge": 0, "trail_found": 0, "exact": true, "measured_corr": 1.0, "predicted_corr": 1.0}
+{"start": 9, "steps": 2, "weight_ge": 2, "trail_found": 2, "exact": true, "measured_corr": 0.23681640625, "predicted_corr": 0.25}
+{"start": 10, "steps": 2, "weight_ge": 1, "trail_found": 1, "exact": true, "measured_corr": 0.4923095703125, "predicted_corr": 0.5}
+{"start": 11, "steps": 2, "weight_ge": 0, "trail_found": 0, "exact": true, "measured_corr": 1.0, "predicted_corr": 1.0}
+linear, steps 2: every trail has weight >= 0 (proven, all 12 offsets)
+{"start": 0, "steps": 3, "weight_ge": 6, "trail_found": 6, "exact": true, "measured_corr": 0.0091552734375, "predicted_corr": 0.015625}
+{"start": 1, "steps": 3, "weight_ge": 2, "trail_found": 2, "exact": true, "measured_corr": 0.237548828125, "predicted_corr": 0.25}
+{"start": 2, "steps": 3, "weight_ge": 4, "trail_found": 4, "exact": true, "measured_corr": 0.0804443359375, "predicted_corr": 0.0625}
+{"start": 3, "steps": 3, "weight_ge": 5, "trail_found": 5, "exact": true, "measured_corr": 0.0255126953125, "predicted_corr": 0.03125}
+{"start": 4, "steps": 3, "weight_ge": 3, "trail_found": 3, "exact": true, "measured_corr": 0.1365966796875, "predicted_corr": 0.125}
+{"start": 5, "steps": 3, "weight_ge": 4, "trail_found": 4, "exact": true, "measured_corr": 0.0631103515625, "predicted_corr": 0.0625}
+{"start": 6, "steps": 3, "weight_ge": 6, "trail_found": 6, "exact": true, "measured_corr": 0.0177001953125, "predicted_corr": 0.015625}
+{"start": 7, "steps": 3, "weight_ge": 2, "trail_found": 2, "exact": true, "measured_corr": 0.253662109375, "predicted_corr": 0.25}
+{"start": 8, "steps": 3, "weight_ge": 4, "trail_found": 4, "exact": true, "measured_corr": 0.0767822265625, "predicted_corr": 0.0625}
+{"start": 9, "steps": 3, "weight_ge": 6, "trail_found": 6, "exact": true, "measured_corr": 0.0224609375, "predicted_corr": 0.015625}
+{"start": 10, "steps": 3, "weight_ge": 2, "trail_found": 2, "exact": true, "measured_corr": 0.262939453125, "predicted_corr": 0.25}
+{"start": 11, "steps": 3, "weight_ge": 5, "trail_found": 5, "exact": true, "measured_corr": 0.0372314453125, "predicted_corr": 0.03125}
+linear, steps 3: every trail has weight >= 2 (proven, all 12 offsets)

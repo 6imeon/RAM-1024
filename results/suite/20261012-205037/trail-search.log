@@ -1,0 +1,11 @@
+boomerang <=2^-1024: {'steps': 14, 'weight': 582.3, 'top': 5, 'switch': 5, 'bottom': 4, 'offset': 6, 'beta': 17, 'gamma': 42, 'switch_weight_2^16': 8.91, 'top_weight': 122, 'bottom_weight': 165}
+boomerang <=2^-2048: {'steps': 16, 'weight': 1548.8, 'top': 6, 'switch': 5, 'bottom': 5, 'offset': 0, 'beta': 21, 'gamma': 43, 'switch_weight_2^16': 10.39, 'top_weight': 381, 'bottom_weight': 388}
+boomerang, all 2544 differences: [(14, 808.7), (15, 1146.7), (16, 2133.0), (17, 3123.4), (18, 4279.0)]
+rx inside-out: {'steps': 9, 'forward': 3, 'backward': 6}
+linear [(1, 0), (2, 2), (3, 29), (4, 81), (5, 245), (6, 717), (7, 1111), (8, 1710), (9, 2384), (10, 2838), (11, 3518), (12, 4172)]
+linear reach: {'data_le_2^1024': 5, 'data_le_2^2048': 6}  differential-linear: {'steps': 10, 'diff_steps': 5, 'lin_steps': 5, 'log2_data': 1498}
+forward [(1, 0), (2, 2), (3, 28), (4, 86), (5, 259), (6, 737), (7, 1305), (8, 2287), (9, 3439), (10, 4362), (11, 5534), (12, 6715)]
+backward [(1, 0), (2, 0), (3, 10), (4, 33), (5, 81), (6, 292), (7, 596), (8, 1172), (9, 2238), (10, 3123), (11, 4238), (12, 5421)]
+inside-out <=2^-1024: {'steps': 12, 'forward': 5, 'backward': 7, 'weight': 855, 'rounds': 4.0}
+inside-out <=2^-2048: {'steps': 14, 'forward': 6, 'backward': 8, 'weight': 1909, 'rounds': 4.67}
+with 2 free rounds: 22 steps (7.33 rounds) -> margin 8.7x

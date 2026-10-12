@@ -1,0 +1,11 @@
+{
+ "blake2b_perm_forward_half_rounds": 3,
+ "blake2b_perm_backward_half_rounds": 6,
+ "blake2b_inside_out_rounds": 4.5,
+ "ram_inside_out_rounds": 5.0,
+ "multiplier": 1.89,
+ "ram_estimated_expert_reach": 9.44,
+ "ram_margin_inside_out": 6.78,
+ "ram_margin_forward_only": 8.47,
+ "ram_margin_headline": 6.78
+}

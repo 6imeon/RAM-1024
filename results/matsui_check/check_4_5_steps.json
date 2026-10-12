@@ -1,0 +1,194 @@
+[
+ {
+  "start": 0,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat",
+  "seconds": 7.3,
+  "matsui": false
+ },
+ {
+  "start": 1,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat",
+  "seconds": 7.4,
+  "matsui": false
+ },
+ {
+  "start": 2,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat",
+  "seconds": 12.7,
+  "matsui": false
+ },
+ {
+  "start": 3,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat",
+  "seconds": 7.4,
+  "matsui": false
+ },
+ {
+  "start": 4,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat",
+  "seconds": 7.8,
+  "matsui": false
+ },
+ {
+  "start": 5,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat",
+  "seconds": 12.0,
+  "matsui": false
+ },
+ {
+  "start": 6,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat",
+  "seconds": 7.3,
+  "matsui": false
+ },
+ {
+  "start": 7,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat",
+  "seconds": 6.6,
+  "matsui": false
+ },
+ {
+  "start": 8,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat",
+  "seconds": 12.6,
+  "matsui": false
+ },
+ {
+  "start": 9,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat",
+  "seconds": 7.3,
+  "matsui": false
+ },
+ {
+  "start": 10,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat",
+  "seconds": 6.4,
+  "matsui": false
+ },
+ {
+  "start": 11,
+  "steps": 4,
+  "W": 1,
+  "result": "unsat",
+  "seconds": 8.1,
+  "matsui": false
+ },
+ {
+  "start": 0,
+  "steps": 5,
+  "W": 11,
+  "result": "unknown",
+  "seconds": 578.8,
+  "matsui": false
+ },
+ {
+  "start": 1,
+  "steps": 5,
+  "W": 11,
+  "result": "unknown",
+  "seconds": 578.2,
+  "matsui": false
+ },
+ {
+  "start": 2,
+  "steps": 5,
+  "W": 11,
+  "result": "unknown",
+  "seconds": 578.5,
+  "matsui": false
+ },
+ {
+  "start": 3,
+  "steps": 5,
+  "W": 11,
+  "result": "unknown",
+  "seconds": 578.5,
+  "matsui": false
+ },
+ {
+  "start": 4,
+  "steps": 5,
+  "W": 11,
+  "result": "unknown",
+  "seconds": 578.7,
+  "matsui": false
+ },
+ {
+  "start": 5,
+  "steps": 5,
+  "W": 11,
+  "result": "unknown",
+  "seconds": 577.8,
+  "matsui": false
+ },
+ {
+  "start": 6,
+  "steps": 5,
+  "W": 11,
+  "result": "unknown",
+  "seconds": 578.4,
+  "matsui": false
+ },
+ {
+  "start": 7,
+  "steps": 5,
+  "W": 11,
+  "result": "unknown",
+  "seconds": 578.0,
+  "matsui": false
+ },
+ {
+  "start": 8,
+  "steps": 5,
+  "W": 11,
+  "result": "unknown",
+  "seconds": 578.0,
+  "matsui": false
+ },
+ {
+  "start": 9,
+  "steps": 5,
+  "W": 11,
+  "result": "unknown",
+  "seconds": 578.2,
+  "matsui": false
+ },
+ {
+  "start": 10,
+  "steps": 5,
+  "W": 11,
+  "result": "unknown",
+  "seconds": 577.9,
+  "matsui": false
+ },
+ {
+  "start": 11,
+  "steps": 5,
+  "W": 11,
+  "result": "unknown",
+  "seconds": 577.5,
+  "matsui": false
+ }
+]

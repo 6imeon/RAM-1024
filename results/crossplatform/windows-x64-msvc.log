@@ -1,0 +1,17 @@
+debconf: delaying package configuration, since apt-utils is not installed
+== clang-cl /O2 /MT 
+wine: created the configuration directory '/root/.wine'
+wine: configuration in L"/root/.wine" has been updated.
+platform: little-endian, 64-bit pointers, Windows (MSVC ABI)
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+== clang-cl /O2 /MT -DRAM_NO_THREADS
+platform: little-endian, 64-bit pointers, Windows (MSVC ABI)
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+== clang-cl /O2 /MT -DRAM_RESEARCH
+platform: little-endian, 64-bit pointers, Windows (MSVC ABI)
+5 RAM-Balloon vectors
+88 known-answer vectors (0 research-only, correctly refused), 0 failures
+== DLL with exports
+exported ram_* symbols: 17

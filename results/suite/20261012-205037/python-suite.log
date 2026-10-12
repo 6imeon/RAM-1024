@@ -1,0 +1,8 @@
+.............................../tests/test_ramhash.py:179: ResourceWarning: unclosed file <_io.TextIOWrapper name='./tests/kat_pwhash.txt' mode='r' encoding='UTF-8'>
+  for line in open(path):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.......
+----------------------------------------------------------------------
+Ran 37 tests in 5.162s
+
+OK

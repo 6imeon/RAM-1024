@@ -1,0 +1,17 @@
+00:31:04 forward zero-sum steps=1 (1, 0, 1906)
+00:31:04 forward zero-sum steps=2 (1, 0, 1135)
+00:31:05 forward zero-sum steps=3 (1, 0, 550)
+00:31:06 forward zero-sum steps=4 None
+00:31:06 forward zero-sum steps=5 None
+00:31:06 forward affine bits after 1 steps: 0 (redundant eqs 251)
+00:31:07 backward zero-sum steps=1 (1, 0, 2031)
+00:31:07 backward zero-sum steps=2 (1, 0, 1946)
+00:31:08 backward zero-sum steps=3 (1, 0, 1590)
+00:31:08 backward zero-sum steps=4 (1, 0, 810)
+00:31:09 backward zero-sum steps=5 (1, 0, 35)
+00:31:10 backward zero-sum steps=6 (1, 0, 22)
+00:31:11 backward zero-sum steps=7 None
+00:31:12 backward zero-sum steps=8 None
+00:31:12 backward affine bits after 1 steps: 32 (redundant eqs 251)
+00:31:12 backward affine bits after 2 steps: 0 (redundant eqs 251)
+00:31:12 zero-sum inside-out reach: 9 steps

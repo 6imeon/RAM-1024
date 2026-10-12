@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ramhash"
+version = "3.0.0"
+description = "RAM-1024: 2048-bit sponge hash / XOF / MAC, RAM-Balloon password hashing"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "6imeon"}]
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: C",
+    "Operating System :: OS Independent",
+    "Topic :: Security :: Cryptography",
+]
+
+[project.optional-dependencies]
+lab = ["numpy"]
+
+[tool.setuptools]
+packages = ["ramhash"]

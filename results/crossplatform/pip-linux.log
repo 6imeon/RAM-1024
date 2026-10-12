@@ -1,0 +1,4 @@
+debconf: delaying package configuration, since apt-utils is not installed
+/tmp/v/lib/python3.11/site-packages/ramhash/_libram.cpython-311-x86_64-linux-gnu.so
+python: C library loaded, 88 vectors (57 also via pure Python), 0 mismatches
+$rh1$ram-balloon2$m=16384,t=3,p=4$

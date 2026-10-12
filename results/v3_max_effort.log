@@ -1,0 +1,3 @@
+{'alg': 'BLAKE2b', 'round': 2, 'delta_bit': 251, 'accuracy': 0.49965, 'z': -0.5, 'distinguisher': False, 'seconds': 178}
+{'alg': 'RAM-1024', 'round': 2, 'delta_bit': 196, 'accuracy': 0.49943, 'z': -0.81, 'distinguisher': False, 'seconds': 182}
+{'alg': 'RAM-1024', 'round': 3, 'delta_bit': 310, 'accuracy': 0.50055, 'z': 0.78, 'distinguisher': False, 'seconds': 179}

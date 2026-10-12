@@ -1,0 +1,8 @@
+== gcc -O2
+ct_test: 30/30 MAC tags matched across one-shot/streaming
+== gcc -O3
+ct_test: 30/30 MAC tags matched across one-shot/streaming
+== gcc -O2 -DRAM_NO_SIMD
+ct_test: 30/30 MAC tags matched across one-shot/streaming
+== gcc -Os -DRAM_NO_THREADS
+ct_test: 30/30 MAC tags matched across one-shot/streaming

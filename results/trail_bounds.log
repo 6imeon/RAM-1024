@@ -1,0 +1,39 @@
+{"start": 0, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "empirical_p": 1.0}
+{"start": 1, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "empirical_p": 1.0}
+{"start": 2, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "empirical_p": 1.0}
+{"start": 3, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "empirical_p": 1.0}
+{"start": 4, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "empirical_p": 1.0}
+{"start": 5, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "empirical_p": 1.0}
+{"start": 6, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "empirical_p": 1.0}
+{"start": 7, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "empirical_p": 1.0}
+{"start": 8, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "empirical_p": 1.0}
+{"start": 9, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "empirical_p": 1.0}
+{"start": 10, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "empirical_p": 1.0}
+{"start": 11, "steps": 1, "weight_ge": 0, "trail_found": 0, "exact": true, "empirical_p": 1.0}
+steps 1: every trail has weight >= 0 (proven, all 12 offsets)
+{"start": 0, "steps": 2, "weight_ge": 5, "trail_found": 5, "exact": true, "empirical_p": 0.033935546875}
+{"start": 1, "steps": 2, "weight_ge": 0, "trail_found": 0, "exact": true, "empirical_p": 1.0}
+{"start": 2, "steps": 2, "weight_ge": 3, "trail_found": 3, "exact": true, "empirical_p": 0.125732421875}
+{"start": 3, "steps": 2, "weight_ge": 5, "trail_found": 5, "exact": true, "empirical_p": 0.031982421875}
+{"start": 4, "steps": 2, "weight_ge": 1, "trail_found": 1, "exact": true, "empirical_p": 0.5068359375}
+{"start": 5, "steps": 2, "weight_ge": 4, "trail_found": 4, "exact": true, "empirical_p": 0.062255859375}
+{"start": 6, "steps": 2, "weight_ge": 5, "trail_found": 5, "exact": true, "empirical_p": 0.0341796875}
+{"start": 7, "steps": 2, "weight_ge": 1, "trail_found": 1, "exact": true, "empirical_p": 0.491943359375}
+{"start": 8, "steps": 2, "weight_ge": 2, "trail_found": 2, "exact": true, "empirical_p": 0.260009765625}
+{"start": 9, "steps": 2, "weight_ge": 5, "trail_found": 5, "exact": true, "empirical_p": 0.030029296875}
+{"start": 10, "steps": 2, "weight_ge": 1, "trail_found": 1, "exact": true, "empirical_p": 0.4990234375}
+{"start": 11, "steps": 2, "weight_ge": 2, "trail_found": 2, "exact": true, "empirical_p": 0.24853515625}
+steps 2: every trail has weight >= 0 (proven, all 12 offsets)
+{"start": 0, "steps": 3, "weight_ge": 7}
+{"start": 1, "steps": 3, "weight_ge": 4, "trail_found": 4, "exact": true, "empirical_p": 0.06298828125}
+{"start": 2, "steps": 3, "weight_ge": 7}
+{"start": 3, "steps": 3, "weight_ge": 7}
+{"start": 4, "steps": 3, "weight_ge": 5, "trail_found": 5, "exact": true, "empirical_p": 0.0283203125}
+{"start": 5, "steps": 3, "weight_ge": 6}
+{"start": 6, "steps": 3, "weight_ge": 7}
+{"start": 7, "steps": 3, "weight_ge": 3, "trail_found": 3, "exact": true, "empirical_p": 0.12841796875}
+{"start": 8, "steps": 3, "weight_ge": 6}
+{"start": 9, "steps": 3, "weight_ge": 7}
+{"start": 10, "steps": 3, "weight_ge": 4, "trail_found": 4, "exact": true, "empirical_p": 0.058349609375}
+{"start": 11, "steps": 3, "weight_ge": 6}
+steps 3: every trail has weight >= 3 (proven, all 12 offsets)

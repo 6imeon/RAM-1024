@@ -1,0 +1,6 @@
+== asan+ubsan 
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+== asan+ubsan -DRAM_NO_SIMD
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+== tsan
+88 known-answer vectors (27 research-only, correctly refused), 0 failures

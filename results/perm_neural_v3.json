@@ -1,0 +1,55 @@
+{
+ "rows": [
+  {
+   "dir": 1,
+   "steps": 4,
+   "bit": 1086,
+   "acc": 0.9862,
+   "z": 376.6,
+   "broken": true
+  },
+  {
+   "dir": 1,
+   "steps": 5,
+   "bit": 1430,
+   "acc": 0.5012,
+   "z": 0.9,
+   "broken": false
+  },
+  {
+   "dir": 1,
+   "steps": 6,
+   "bit": 1582,
+   "acc": 0.5023,
+   "z": 1.8,
+   "broken": false
+  },
+  {
+   "dir": -1,
+   "steps": 6,
+   "bit": 896,
+   "acc": 1.0,
+   "z": 387.3,
+   "broken": true
+  },
+  {
+   "dir": -1,
+   "steps": 7,
+   "bit": 610,
+   "acc": 0.5004,
+   "z": 0.3,
+   "broken": false
+  },
+  {
+   "dir": -1,
+   "steps": 8,
+   "bit": 559,
+   "acc": 0.5014,
+   "z": 1.1,
+   "broken": false
+  }
+ ],
+ "forward_reach": 4,
+ "backward_reach": 6,
+ "inside_out_steps": 10
+}

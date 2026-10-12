@@ -1,0 +1,16 @@
+x86_64-w64-mingw32-gcc -O2 -Wall -Wextra -std=c99 -DRAM_BUILD_DLL -c -o build/ram1024.o csrc/ram1024.c
+x86_64-w64-mingw32-gcc -shared -o build/libram.dll build/ram1024.o  
+x86_64-w64-mingw32-gcc -O2 -Wall -Wextra -std=c99 -DRAM_BUILD_DLL -o build/ram_test.exe csrc/ram_test.c build/ram1024.o 
+x86_64-w64-mingw32-gcc -O2 -Wall -Wextra -std=c99 -DRAM_BUILD_DLL -o build/ramsum.exe csrc/ramsum.c build/ram1024.o 
+x86_64-w64-mingw32-gcc -O2 -Wall -Wextra -std=c99 -DRAM_BUILD_DLL -DRAM_RESEARCH -o build/ram_test_research.exe csrc/ram_test.c csrc/ram1024.c 
+wine: created the configuration directory '/root/.wine'
+assertion failed [x86_avx_state_ptr->xsave_header.xfeatures == kSupportedXFeatureBits]: 
+(ThreadContextSignals.cpp:414 rt_sigreturn)
+ wine: configuration in L"/root/.wine" has been updated.
+platform: little-endian, 64-bit pointers, Windows
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+platform: little-endian, 64-bit pointers, Windows
+5 RAM-Balloon vectors
+88 known-answer vectors (0 research-only, correctly refused), 0 failures
+7ab55bde34303ba4a41cef0bb4dcd46b3fc94498c1cd157212e306280e722c3510e06f99dd2dfa4e792a683dabbd244d1c7a260a5cb93784bd9fd8bfa74b7fffef2447b4096b94e6ce4a4f8499be6880ed05b9528e5e533ea0518f117ec79e3c0fa6102f666e7d581a2ea66d32e2dcb1f62f3bf56cb4490c09f5969a345f8866  tests/kat.txt

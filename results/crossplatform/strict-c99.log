@@ -1,0 +1,56 @@
+== gcc 
+platform: little-endian, 64-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+platform: little-endian, 64-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (0 research-only, correctly refused), 0 failures
+== gcc -DRAM_NO_SIMD
+platform: little-endian, 64-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+platform: little-endian, 64-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (0 research-only, correctly refused), 0 failures
+== gcc -DRAM_NO_THREADS
+platform: little-endian, 64-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+platform: little-endian, 64-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (0 research-only, correctly refused), 0 failures
+== gcc -DRAM_NO_SIMD -DRAM_NO_THREADS
+platform: little-endian, 64-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+platform: little-endian, 64-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (0 research-only, correctly refused), 0 failures
+== clang 
+platform: little-endian, 64-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+platform: little-endian, 64-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (0 research-only, correctly refused), 0 failures
+== clang -DRAM_NO_SIMD
+platform: little-endian, 64-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+platform: little-endian, 64-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (0 research-only, correctly refused), 0 failures
+== clang -DRAM_NO_THREADS
+platform: little-endian, 64-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+platform: little-endian, 64-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (0 research-only, correctly refused), 0 failures
+== clang -DRAM_NO_SIMD -DRAM_NO_THREADS
+platform: little-endian, 64-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+platform: little-endian, 64-bit pointers, Linux
+5 RAM-Balloon vectors
+88 known-answer vectors (0 research-only, correctly refused), 0 failures

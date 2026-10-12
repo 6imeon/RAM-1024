@@ -1,0 +1,39 @@
+{
+ "expert_reach_rounds": 7.56,
+ "rows": [
+  {
+   "competitor": "SHA-256",
+   "competitor_margin": 1.64,
+   "ram_rounds_for_equal_margin": 13,
+   "competitor_mb_s": 2902,
+   "ram_1core_mb_s": 1056,
+   "ram_allcores_mb_s": 7628,
+   "ram_cpu_gpu_mb_s": 7624
+  },
+  {
+   "competitor": "SHA3-512",
+   "competitor_margin": 4.0,
+   "ram_rounds_for_equal_margin": 31,
+   "competitor_mb_s": 497,
+   "ram_1core_mb_s": 486,
+   "ram_allcores_mb_s": 3538,
+   "ram_cpu_gpu_mb_s": 3536
+  },
+  {
+   "competitor": "BLAKE2b",
+   "competitor_margin": 1.41,
+   "ram_rounds_for_equal_margin": 11,
+   "competitor_mb_s": 1366,
+   "ram_1core_mb_s": 1205,
+   "ram_allcores_mb_s": 8709,
+   "ram_cpu_gpu_mb_s": 8730
+  }
+ ],
+ "full": {
+  "rounds": 64,
+  "margin": 8.47,
+  "ram_1core_mb_s": 247,
+  "ram_allcores_mb_s": 1784,
+  "ram_cpu_gpu_mb_s": 3792
+ }
+}

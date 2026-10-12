@@ -1,0 +1,10 @@
+23:33:52 == RAM-1024
+23:33:53   SAC full diffusion at round 2
+23:33:58   cube RAM-1024 r=1 {'cube_dim': 1, 'strategy': 'random', 'constant_bits': 170}
+23:33:59   cube RAM-1024 r=2 None
+23:34:00   cube RAM-1024 r=3 None
+23:35:38   neural RAM-1024 r=1 {'delta_bit': 0, 'accuracy': 1.0, 'z': 447.2}
+23:37:36   neural RAM-1024 r=2 {'delta_bit': 0, 'accuracy': 0.503, 'z': 2.7}
+23:39:34   neural RAM-1024 r=3 {'delta_bit': 22, 'accuracy': 0.5016, 'z': 1.5}
+23:39:38   broken up to round 1 of 64
+23:39:44 wrote ./analysis/../results/results.json in 352s

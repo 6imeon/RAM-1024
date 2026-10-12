@@ -1,0 +1,13 @@
+23:17:46 steps {'step': 3, 'rounds': 1.0, 'sac_zmax': 44.7, 'sac_pass': False, 'neural_z': 447.2, 'multipair_z': 316.2, 'cube_dim': 1, 'broken': True}
+23:18:15 steps {'step': 4, 'rounds': 1.33, 'sac_zmax': 30.2, 'sac_pass': False, 'neural_z': 312.9, 'multipair_z': 291.7, 'cube_dim': None, 'broken': True}
+23:18:45 steps {'step': 5, 'rounds': 1.67, 'sac_zmax': 4.6, 'sac_pass': True, 'neural_z': 0.3, 'multipair_z': 0.3, 'cube_dim': None, 'broken': False}
+23:19:15 steps {'step': 6, 'rounds': 2.0, 'sac_zmax': 4.2, 'sac_pass': True, 'neural_z': -1.8, 'multipair_z': -0.4, 'cube_dim': None, 'broken': False}
+23:19:47 steps {'step': 7, 'rounds': 2.33, 'sac_zmax': 4.5, 'sac_pass': True, 'neural_z': 0.1, 'multipair_z': 1.4, 'cube_dim': None, 'broken': False}
+23:20:18 steps {'step': 8, 'rounds': 2.67, 'sac_zmax': 4.8, 'sac_pass': True, 'neural_z': -0.9, 'multipair_z': 0.4, 'cube_dim': None, 'broken': False}
+23:20:49 steps {'step': 9, 'rounds': 3.0, 'sac_zmax': 4.6, 'sac_pass': True, 'neural_z': -0.1, 'multipair_z': -1.3, 'cube_dim': None, 'broken': False}
+23:21:27 strong {'alg': 'SHA-256', 'round': 23, 'multipair_acc': 0.4985, 'multipair_z': -0.9, 'big_cube': None, 'broken': False}
+23:22:15 strong {'alg': 'SHA3-512', 'round': 4, 'multipair_acc': 0.4973, 'multipair_z': -1.7, 'big_cube': {'k': 20, 'strategy': 0, 'const_bits': 256}, 'broken': True}
+23:22:34 strong {'alg': 'SHA3-512', 'round': 5, 'multipair_acc': 0.502, 'multipair_z': 1.2, 'big_cube': None, 'broken': False}
+23:22:52 strong {'alg': 'BLAKE2b', 'round': 2, 'multipair_acc': 0.5008, 'multipair_z': 0.5, 'big_cube': None, 'broken': False}
+23:23:21 strong {'alg': 'RAM-1024', 'round': 2, 'multipair_acc': 0.499, 'multipair_z': -0.6, 'big_cube': None, 'broken': False}
+23:23:21 done

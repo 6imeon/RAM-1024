@@ -1,0 +1,28 @@
+RAM-1024 {'marked': 1, 'grover_queries': 12, 'success_prob': 0.9999, 'classical_expected_queries': 128.0, 'k': 8}
+RAM-1024 {'marked': 4, 'grover_queries': 25, 'success_prob': 0.9995, 'classical_expected_queries': 819.2, 'k': 12}
+RAM-1024 {'marked': 2, 'grover_queries': 142, 'success_prob': 1.0, 'classical_expected_queries': 21845.3, 'k': 16}
+RAM-1024 {'marked': 2, 'grover_queries': 568, 'success_prob': 1.0, 'classical_expected_queries': 349525.3, 'k': 20}
+SHA-256 {'marked': 1, 'grover_queries': 12, 'success_prob': 0.9999, 'classical_expected_queries': 128.0, 'k': 8}
+SHA-256 {'marked': 2, 'grover_queries': 35, 'success_prob': 1.0, 'classical_expected_queries': 1365.3, 'k': 12}
+SHA-256 {'marked': 1, 'grover_queries': 201, 'success_prob': 1.0, 'classical_expected_queries': 32768.0, 'k': 16}
+SHA-256 {'marked': 2, 'grover_queries': 568, 'success_prob': 1.0, 'classical_expected_queries': 349525.3, 'k': 20}
+{
+ "SHA-256": {
+  "grover_preimage_queries_log2": 128.0,
+  "grover_preimage_gates_MAXDEPTH_2^64_log2": 224,
+  "grover_preimage_gates_MAXDEPTH_2^96_log2": 192,
+  "BHT_collision_queries_log2": 85.3
+ },
+ "SHA3-512": {
+  "grover_preimage_queries_log2": 256.0,
+  "grover_preimage_gates_MAXDEPTH_2^64_log2": 480,
+  "grover_preimage_gates_MAXDEPTH_2^96_log2": 448,
+  "BHT_collision_queries_log2": 170.7
+ },
+ "RAM-1024": {
+  "grover_preimage_queries_log2": 341.3,
+  "grover_preimage_gates_MAXDEPTH_2^64_log2": 651,
+  "grover_preimage_gates_MAXDEPTH_2^96_log2": 619,
+  "BHT_collision_queries_log2": 341.3
+ }
+}

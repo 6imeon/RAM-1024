@@ -1,0 +1,10 @@
+PASS alpine-musl-clang (linux/arm64, alpine:3.20) 6s
+PASS cmake (linux/arm64, debian:bookworm-slim) 4s
+PASS constant-time (linux/arm64, debian:bookworm-slim) 10s
+PASS fuzz (linux/arm64, debian:bookworm-slim) 66s
+PASS linux-arm64-gcc (linux/arm64, debian:bookworm-slim) 5s
+PASS linux-s390x-bigendian (linux/s390x, ubuntu:24.04) 28s
+PASS pip-no-compiler (linux/arm64, debian:bookworm-slim) 6s
+PASS sanitizers (linux/arm64, debian:bookworm-slim) 9s
+PASS strict-c99 (linux/arm64, debian:bookworm-slim) 21s
+PASS windows-x64-mingw (linux/amd64, debian:bookworm-slim) 28s

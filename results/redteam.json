@@ -1,0 +1,122 @@
+{
+ "k_pairs": 4,
+ "ram_steps": [
+  {
+   "step": 3,
+   "rounds": 1.0,
+   "sac_zmax": 44.7,
+   "sac_pass": false,
+   "neural_z": 447.2,
+   "multipair_z": 316.2,
+   "cube_dim": 1,
+   "broken": true
+  },
+  {
+   "step": 4,
+   "rounds": 1.33,
+   "sac_zmax": 29.8,
+   "sac_pass": false,
+   "neural_z": 272.0,
+   "multipair_z": 270.1,
+   "cube_dim": null,
+   "broken": true
+  },
+  {
+   "step": 5,
+   "rounds": 1.67,
+   "sac_zmax": 4.7,
+   "sac_pass": true,
+   "neural_z": 0.3,
+   "multipair_z": 0.1,
+   "cube_dim": null,
+   "broken": false
+  },
+  {
+   "step": 6,
+   "rounds": 2.0,
+   "sac_zmax": 5.1,
+   "sac_pass": true,
+   "neural_z": -0.7,
+   "multipair_z": 0.1,
+   "cube_dim": null,
+   "broken": false
+  },
+  {
+   "step": 7,
+   "rounds": 2.33,
+   "sac_zmax": 5.1,
+   "sac_pass": true,
+   "neural_z": -0.3,
+   "multipair_z": -0.1,
+   "cube_dim": null,
+   "broken": false
+  },
+  {
+   "step": 8,
+   "rounds": 2.67,
+   "sac_zmax": 4.7,
+   "sac_pass": true,
+   "neural_z": -1.0,
+   "multipair_z": 1.9,
+   "cube_dim": null,
+   "broken": false
+  },
+  {
+   "step": 9,
+   "rounds": 3.0,
+   "sac_zmax": 4.5,
+   "sac_pass": true,
+   "neural_z": -1.5,
+   "multipair_z": -0.1,
+   "cube_dim": null,
+   "broken": false
+  }
+ ],
+ "ram_first_unbroken_step": 5,
+ "strong_attacks": [
+  {
+   "alg": "SHA-256",
+   "round": 23,
+   "multipair_acc": 0.4985,
+   "multipair_z": -0.9,
+   "big_cube": null,
+   "broken": false
+  },
+  {
+   "alg": "SHA3-512",
+   "round": 4,
+   "multipair_acc": 0.4973,
+   "multipair_z": -1.7,
+   "big_cube": {
+    "k": 20,
+    "strategy": 0,
+    "const_bits": 256
+   },
+   "broken": true
+  },
+  {
+   "alg": "SHA3-512",
+   "round": 5,
+   "multipair_acc": 0.502,
+   "multipair_z": 1.2,
+   "big_cube": null,
+   "broken": false
+  },
+  {
+   "alg": "BLAKE2b",
+   "round": 2,
+   "multipair_acc": 0.5008,
+   "multipair_z": 0.5,
+   "big_cube": null,
+   "broken": false
+  },
+  {
+   "alg": "RAM-1024",
+   "round": 2,
+   "multipair_acc": 0.5007,
+   "multipair_z": 0.4,
+   "big_cube": null,
+   "broken": false
+  }
+ ]
+}

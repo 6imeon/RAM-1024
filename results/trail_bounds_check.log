@@ -1,0 +1,26 @@
+{"start": 0, "steps": 4, "W": 1, "result": "unsat"}
+{"start": 1, "steps": 4, "W": 1, "result": "unsat"}
+{"start": 2, "steps": 4, "W": 1, "result": "unsat"}
+{"start": 3, "steps": 4, "W": 1, "result": "unsat"}
+{"start": 4, "steps": 4, "W": 1, "result": "unsat"}
+{"start": 5, "steps": 4, "W": 1, "result": "unsat"}
+{"start": 6, "steps": 4, "W": 1, "result": "unsat"}
+{"start": 7, "steps": 4, "W": 1, "result": "unsat"}
+{"start": 8, "steps": 4, "W": 1, "result": "unsat"}
+{"start": 9, "steps": 4, "W": 1, "result": "unsat"}
+{"start": 10, "steps": 4, "W": 1, "result": "unsat"}
+{"start": 11, "steps": 4, "W": 1, "result": "unsat"}
+steps 4, weight <= 1: PROVEN IMPOSSIBLE
+{"start": 0, "steps": 5, "W": 11, "result": "unsat"}
+{"start": 1, "steps": 5, "W": 11, "result": "unsat"}
+{"start": 2, "steps": 5, "W": 11, "result": "unsat"}
+{"start": 3, "steps": 5, "W": 11, "result": "unsat"}
+{"start": 4, "steps": 5, "W": 11, "result": "unsat"}
+{"start": 5, "steps": 5, "W": 11, "result": "unsat"}
+{"start": 6, "steps": 5, "W": 11, "result": "unsat"}
+{"start": 7, "steps": 5, "W": 11, "result": "unsat"}
+{"start": 8, "steps": 5, "W": 11, "result": "unsat"}
+{"start": 9, "steps": 5, "W": 11, "result": "unsat"}
+{"start": 10, "steps": 5, "W": 11, "result": "unsat"}
+{"start": 11, "steps": 5, "W": 11, "result": "unsat"}
+steps 5, weight <= 11: PROVEN IMPOSSIBLE

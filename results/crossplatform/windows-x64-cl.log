@@ -1,0 +1,17 @@
+debconf: delaying package configuration, since apt-utils is not installed
+Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+== cl /O2 /W4 /WX /std:c11 
+platform: little-endian, 64-bit pointers, Windows (MSVC ABI)
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+== cl /O2 /W4 /WX /std:c11 /DRAM_NO_THREADS
+platform: little-endian, 64-bit pointers, Windows (MSVC ABI)
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+== cl /O2 /W4 /WX /std:c11 /DRAM_RESEARCH
+platform: little-endian, 64-bit pointers, Windows (MSVC ABI)
+5 RAM-Balloon vectors
+88 known-answer vectors (0 research-only, correctly refused), 0 failures
+== cl DLL
+141824 ram.dll
+4774 ram.lib

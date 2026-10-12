@@ -1,0 +1,25 @@
+# build output
+build/
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+dist/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# editors / OS
+.DS_Store
+.vscode/
+.idea/
+
+# test-suite runs: keep the two runs cited in CRYPTANALYSIS.md, ignore new ones
+results/suite/2*
+!results/suite/20261012-205037/
+!results/suite/20261012-213247/
+results/crossplatform/run.*
+
+# v1-era raw logs (pre-rename); their numbers are in RESULTS.md
+results/archive/

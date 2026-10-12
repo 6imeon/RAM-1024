@@ -1,0 +1,8 @@
+./build/ram_test tests/kat.txt tests/kat_pwhash.txt
+platform: little-endian, 64-bit pointers, Apple
+5 RAM-Balloon vectors
+88 known-answer vectors (27 research-only, correctly refused), 0 failures
+./build/ram_test_research tests/kat.txt tests/kat_pwhash.txt
+platform: little-endian, 64-bit pointers, Apple
+5 RAM-Balloon vectors
+88 known-answer vectors (0 research-only, correctly refused), 0 failures

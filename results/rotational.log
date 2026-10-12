@@ -1,0 +1,4 @@
+SHA-256 rotational distinguisher up to round None
+SHA3-512 rotational distinguisher up to round 2
+BLAKE2b rotational distinguisher up to round None
+RAM-1024 rotational distinguisher up to round None

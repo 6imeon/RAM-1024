@@ -1,0 +1,50 @@
+[
+ {
+  "variant": 0,
+  "name": "v2 baseline",
+  "fwd": 4,
+  "bwd": 7,
+  "inside_out": 11,
+  "colshift": 6
+ },
+ {
+  "variant": 32,
+  "name": "diagonal constants (free)",
+  "fwd": 4,
+  "bwd": 7,
+  "inside_out": 11,
+  "colshift": 3
+ },
+ {
+  "variant": 48,
+  "name": "diagonal constants + rho rows 2-3 after chi",
+  "fwd": 4,
+  "bwd": 7,
+  "inside_out": 11,
+  "colshift": 2
+ },
+ {
+  "variant": 112,
+  "name": "diagonal constants + rho rows 2-3 mid-round",
+  "fwd": 4,
+  "bwd": 6,
+  "inside_out": 10,
+  "colshift": 1
+ },
+ {
+  "variant": 104,
+  "name": "diagonal constants + rho all words mid-round",
+  "fwd": 4,
+  "bwd": 6,
+  "inside_out": 10,
+  "colshift": 0
+ },
+ {
+  "variant": 73,
+  "name": "all-row constants + rho all words mid-round",
+  "fwd": 4,
+  "bwd": 6,
+  "inside_out": 10,
+  "colshift": 0
+ }
+]

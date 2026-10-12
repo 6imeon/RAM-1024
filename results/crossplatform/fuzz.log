@@ -1,0 +1,15 @@
+"\001\000\000\002" # Uses: 1264
+"\004\000" # Uses: 1288
+"\000\000\000\000" # Uses: 1088
+"O\205\013v\377\377\000\000" # Uses: 727
+"i\000\000\000" # Uses: 711
+"t*\021\344\377\377\000\000" # Uses: 30
+"\000\000" # Uses: 33
+"\377\377\377g" # Uses: 13
+###### End of recommended dictionary. ######
+Done 86139 runs in 61 second(s)
+stat::number_of_executed_units: 86139
+stat::average_exec_per_sec:     1412
+stat::new_units_added:          162
+stat::slowest_unit_time_sec:    0
+stat::peak_rss_mb:              627

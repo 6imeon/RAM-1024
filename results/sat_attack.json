@@ -1,0 +1,66 @@
+{
+ "timeout_s": 900,
+ "runs": [
+  {
+   "id": "P-1-4",
+   "result": "sat",
+   "seconds": 0.1,
+   "verified": true
+  },
+  {
+   "id": "P-1-8",
+   "result": "sat",
+   "seconds": 0.1,
+   "verified": true
+  },
+  {
+   "id": "C-1-8",
+   "result": "sat",
+   "seconds": 0.2,
+   "verified": true
+  },
+  {
+   "id": "C-1-16",
+   "result": "sat",
+   "seconds": 0.4,
+   "verified": true
+  },
+  {
+   "id": "P-2-4",
+   "result": "unknown",
+   "seconds": 900.1
+  },
+  {
+   "id": "C-2-8",
+   "result": "unknown",
+   "seconds": 900.1
+  },
+  {
+   "id": "P-2-8",
+   "result": "unknown",
+   "seconds": 900.0
+  },
+  {
+   "id": "C-2-16",
+   "result": "unknown",
+   "seconds": 901.5
+  },
+  {
+   "id": "P-3-4",
+   "result": "unknown",
+   "seconds": 2480,
+   "note": "no answer; z3 ignored its 900 s timeout, stopped by hand"
+  },
+  {
+   "id": "C-3-8",
+   "result": "not run",
+   "note": "skipped: 2 rounds already unknown"
+  }
+ ],
+ "brute_force": {
+  "id": "P-2-4",
+  "seconds": 29,
+  "cores": 12,
+  "result": "solved, checker VALID"
+ }
+}
