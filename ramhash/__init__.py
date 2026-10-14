@@ -7,9 +7,11 @@ Design rules:
     cryptanalysis, the default "ram-1024+sha3-512" concatenates it with
     NIST SHA3-512: the result is
     at least as strong as the stronger of the two.
-  * 512-bit outputs: 256-bit security against collisions, and 256-bit
-    preimage security that stays >= 2^128 even against Grover-style
-    quantum search (SHA-256 drops to 2^128 preimage / ~2^85 collision).
+  * Long outputs: the default is a 1536-bit concatenation (1024-bit
+    RAM-1024 || 512-bit SHA3-512), and every non-legacy algorithm gives at
+    least 512 bits: >= 256-bit collision security, and preimage security
+    that stays >= 2^128 even against Grover-style quantum search (SHA-256
+    drops to 2^128 preimage / ~2^85 collision).
   * Self-describing, versioned encodings ("$rh1$<alg>$<hex>") so the
     algorithm can be swapped later without breaking stored digests.
   * A dual-hash combiner (SHA3-512 || BLAKE2b-512) that stays
@@ -113,9 +115,11 @@ def verify(data, encoded, allow_legacy=False):
 
     Legacy SHA-256 digests (bare 64-char hex or "$rh1$sha256$...") are
     rejected unless ``allow_legacy=True``: otherwise whoever supplies the
-    digest could downgrade verification to the weaker algorithm. Malformed
-    input returns False instead of raising.
+    digest could downgrade verification to the weaker algorithm. A malformed
+    or non-string ``encoded`` returns False instead of raising; ``data``
+    must be str or bytes-like (TypeError otherwise), as for digest().
     """
+    data = _as_bytes(data)  # caller error: raise whatever ``encoded`` is
     if not isinstance(encoded, str) or not encoded.isascii():
         return False
     if "$" not in encoded and len(encoded) == 64:
@@ -130,8 +134,9 @@ def verify(data, encoded, allow_legacy=False):
 
 
 def needs_rehash(encoded, alg=DEFAULT_ALG):
-    """True if ``encoded`` should be recomputed with the current algorithm."""
-    if "$" not in encoded:
+    """True if ``encoded`` should be recomputed with the current algorithm
+    (also for malformed or non-string input; never raises)."""
+    if not isinstance(encoded, str) or "$" not in encoded:
         return True
     try:
         stored_alg, _ = _decode(encoded)
@@ -259,9 +264,10 @@ def needs_rehash_password(encoded, memory_kib=PW_MEMORY_KIB, time_cost=PW_TIME_C
     """True if ``encoded`` is PBKDF2, an older RAM-Balloon version, or
     weaker than the requested parameters (memory, passes or lanes)."""
     try:
-        head, ver, alg, params, _, dk_hex = encoded.split("$")
-        if head or ver != VERSION:
-            return True
+        head, ver, alg, params, salt_hex, dk_hex = encoded.split("$")
+        if head or ver != VERSION or not (_HEX_RE.fullmatch(salt_hex)
+                                          and _HEX_RE.fullmatch(dk_hex)):
+            return True  # corrupt: verify_password could never accept it
         if alg == "pbkdf2-sha512":
             if int(params) < PBKDF2_ITERATIONS or len(dk_hex) != 2 * PBKDF2_DKLEN:
                 return True

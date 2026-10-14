@@ -176,7 +176,9 @@ class PasswordTests(unittest.TestCase):
         msg = lambda n: bytes((7 * i * i + 13 * i + 1) % 256 for i in range(n))
         key = lambda n: bytes((31 * i + 0xA5) % 256 for i in range(n))
         n = 0
-        for line in open(path):
+        with open(path) as f:
+            lines = f.read().splitlines()
+        for line in lines:
             if line.startswith("#") or not line.strip():
                 continue
             outlen, m, t, p, pl, sl, hexd = line.split()

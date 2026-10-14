@@ -77,7 +77,8 @@ RAM_API int ram_update(ram_ctx *c, const uint8_t *in, size_t len);
 RAM_API int ram_final(ram_ctx *c, uint8_t *out);
 RAM_API size_t ram_ctx_size(void);
 
-/* One-shot (single thread). Returns 0, or -1 on bad parameters. */
+/* One-shot (single thread). Returns 0, -1 on bad parameters, or -2 out of
+ * memory (hash mode, messages > RAM_CHUNK). */
 RAM_API int ram_hash(uint8_t *out, size_t outlen, const uint8_t *in, size_t inlen,
                      int rounds, int mode, const uint8_t *key, size_t keylen);
 /* One-shot hash mode on nthreads threads (0 = all cores); same digest.

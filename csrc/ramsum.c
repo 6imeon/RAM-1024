@@ -46,10 +46,12 @@ int main(int argc, char **argv)
 {
     size_t outlen = RAM_OUT;
     int i = 1, rc = 0;
-    if (argc > 2 && !strcmp(argv[1], "-l")) {
-        outlen = (size_t)strtoul(argv[2], NULL, 10);
-        if (outlen == 0 || outlen > 1 << 20) {
-            fprintf(stderr, "ramsum: bad length\n");
+    if (argc > 1 && !strcmp(argv[1], "-l")) {
+        char *end = NULL;
+        outlen = argc > 2 ? (size_t)strtoul(argv[2], &end, 10) : 0;
+        if (!end || *end || outlen < RAM_MIN_HASH_OUT || outlen > 1 << 20) {
+            fprintf(stderr, "ramsum: bad length (%d to %d bytes)\n",
+                    RAM_MIN_HASH_OUT, 1 << 20);
             return 2;
         }
         i = 3;

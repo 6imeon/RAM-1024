@@ -75,7 +75,7 @@ def _lib_for(research):
 class _CRam1024:
     def __init__(self, outlen=ram1024.OUTLEN, mode=ram1024.MODE_HASH,
                  rounds=ram1024.ROUNDS, key=b"", research=False):
-        ram1024.Ram1024(outlen, mode, rounds, key, research)  # validate
+        ram1024.check_params(outlen, mode, rounds, key, research)
         self._lib = _lib_for(research)
         self._ctx = ctypes.create_string_buffer(_CTX_BYTES)
         self._outlen = outlen
@@ -101,7 +101,7 @@ def hash_parallel(data, outlen=ram1024.OUTLEN, rounds=ram1024.ROUNDS, threads=0,
                   gpu=False, gpu_share=-1.0, research=False):
     """One-shot hash mode using all cores, and optionally the GPU (macOS
     Metal). Same digest as Ram1024 either way."""
-    ram1024.Ram1024(outlen, ram1024.MODE_HASH, rounds, b"", research)  # validate
+    ram1024.check_params(outlen, ram1024.MODE_HASH, rounds, b"", research)
     gpu_share = float(gpu_share)
     if not (gpu_share < 0 or 0 <= gpu_share <= 1):  # also rejects NaN
         raise ValueError("gpu_share must be in [0, 1] (or negative for auto)")

@@ -81,6 +81,10 @@ int ram_hash_gpu(uint8_t *out, size_t outlen, const uint8_t *in, size_t inlen,
                                         options:MTLResourceStorageModeShared];
             outb = [g_dev newBufferWithLength:g * RAM_CV
                                       options:MTLResourceStorageModeShared];
+            if (!inb || !outb) { /* too large for a Metal buffer: CPU only */
+                free(cvs);
+                return ram_hash_tree(out, outlen, in, inlen, rounds, 0);
+            }
             uint64_t prm[4] = {0,
                                RAM_VERSION_WORD | ((uint64_t)RAM_MODE_LEAF << 24) |
                                    ((uint64_t)rounds << 16),

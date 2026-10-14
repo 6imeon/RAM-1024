@@ -109,29 +109,34 @@ def _leaf(chunk, index, rounds):
     return sp.digest()
 
 
+def check_params(outlen, mode, rounds, key=b"", research=False):
+    """Raise ValueError unless the parameters are accepted (no hashing)."""
+    # Misuse resistance: reduced rounds and short outputs only for
+    # cryptanalysis, never by accident.
+    if research:
+        if not 1 <= rounds <= len(_RC) // 8:
+            raise ValueError("rounds must be 1..%d" % (len(_RC) // 8))
+    elif rounds != ROUNDS:
+        raise ValueError("rounds must be %d (reduced rounds need research=True)"
+                         % ROUNDS)
+    elif outlen < {MODE_HASH: MIN_HASH_OUT, MODE_MAC: MIN_TAG}.get(mode, 1):
+        raise ValueError("output too short for mode %d" % mode)
+    if mode not in (MODE_HASH, MODE_XOF, MODE_MAC):
+        raise ValueError("bad mode")
+    if key and mode != MODE_MAC:
+        raise ValueError("key only allowed in MAC mode")
+    if mode == MODE_MAC and len(key) < MIN_KEY:
+        raise ValueError("MAC key must be at least %d bytes" % MIN_KEY)
+    if outlen <= 0:
+        raise ValueError("outlen must be positive")
+
+
 class Ram1024:
     """Streaming RAM-1024 (hashlib-style update/digest)."""
 
     def __init__(self, outlen=OUTLEN, mode=MODE_HASH, rounds=ROUNDS, key=b"",
                  research=False):
-        # Misuse resistance: reduced rounds and short outputs only for
-        # cryptanalysis, never by accident.
-        if research:
-            if not 1 <= rounds <= len(_RC) // 8:
-                raise ValueError("rounds must be 1..%d" % (len(_RC) // 8))
-        elif rounds != ROUNDS:
-            raise ValueError("rounds must be %d (reduced rounds need research=True)"
-                             % ROUNDS)
-        elif outlen < {MODE_HASH: MIN_HASH_OUT, MODE_MAC: MIN_TAG}.get(mode, 1):
-            raise ValueError("output too short for mode %d" % mode)
-        if mode not in (MODE_HASH, MODE_XOF, MODE_MAC):
-            raise ValueError("bad mode")
-        if key and mode != MODE_MAC:
-            raise ValueError("key only allowed in MAC mode")
-        if mode == MODE_MAC and len(key) < MIN_KEY:
-            raise ValueError("MAC key must be at least %d bytes" % MIN_KEY)
-        if outlen <= 0:
-            raise ValueError("outlen must be positive")
+        check_params(outlen, mode, rounds, key, research)
         self._mode, self._rounds, self._outlen = mode, rounds, outlen
         self._data = bytearray()  # reference keeps the message (O(n) memory)
         self._sp = _Sponge(outlen, mode, rounds, len(key))
